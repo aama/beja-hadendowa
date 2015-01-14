@@ -290,7 +290,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Optative,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bīkátīmna"],
 	    [:Masc, :Singular, :Person2, "bitkatí̄m"],
@@ -309,7 +309,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Optative,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "bātí̄ktima"],
 	    [:Common, :Plural, :Person1, "bānīktím"],
@@ -819,7 +819,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Past,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "niktím"],
 	    [:Common, :Singular, :Person1, "aktím"],
@@ -874,7 +874,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Predicative,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person1, "kántīmti"],
 	    [:Fem, :Plural, :Person1, "ɛkátimta"],
@@ -1122,7 +1122,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "kí̄ktim"],
 	    [:Fem, :Singular, :Person3, "kítkitim"],
@@ -1141,7 +1141,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "tíktimna"],
 	    [:Common, :Plural, :Person3, "íktimna"],
@@ -1192,7 +1192,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Past,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "kitmāt kittĕ"],
 	    [:Masc, :Singular, :Person1, "kitmāb ká̄ake"],
@@ -1244,31 +1244,11 @@
 	    [:Masc, :Singular, :Person2, "tíndīfa"],
 	    [:Common, :Singular, :Person1, "andtí̄f"],
 	    [:Fem, :Singular, :Person2, "tíndīfi"],
-	    [:Common, :Singular, :Person2, "tɛdifna"],
+	    [:Common, :Plural, :Person2, "tɛdifna"],
 	    [:Common, :Plural, :Person3, "ɛdifna"],
-	    [:Common, :Singular, :Person1, "nɛdíf"],
+	    [:Common, :Plural, :Person1, "nɛdíf"],
 	    [:Masc, :Singular, :Person3, "indí̄̄f"],
 	    [:Fem, :Singular, :Person3, "tindí̄f"]]
-    }
-    {:label "beja_Ro-VPrefMainAffCCPresent-dif"
-    :note "Roper1928 #179-182. [Roper also gives pres neg in predicative of dif – not yet
-            included]"
-    :common {:clauseType :Main,
-	    :conjClass :Prefix,
-	    :lexeme :dif,
-	    :polarity :Affirmative,
-	    :pos :Verb,
-	    :rootClass :CC,
-	    :tam :Present}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Fem, :Singular, :Person2, "tíndīfi"],
-	    [:Fem, :Singular, :Person3, "tindí̄f"],
-	    [:Common, :Singular, :Person1, "andtí̄f"],
-	    [:Common, :Plural, :Person3, "ɛdifna"],
-	    [:Masc, :Singular, :Person2, "tíndīfa"],
-	    [:Common, :Singular, :Person1, "nɛdíf"],
-	    [:Common, :Singular, :Person2, "tɛdifna"],
-	    [:Masc, :Singular, :Person3, "indí̄̄f"]]
     }
     {:label "beja_Ro-VPrefMainNegCCImprtv-bis"
     :note "Roper1928 #167-191"
@@ -1710,7 +1690,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Conditional,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "tí̄ktimi"],
 	    [:Common, :Singular, :Person1, "bāīktím"],
@@ -1731,7 +1711,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :verbMorphClass :NomForm}
+	    }
     :terms [[:gender, :token]  ;; schema
 	    [:Masc, "kítima"],
 	    [:Fem, "kítimi"],
