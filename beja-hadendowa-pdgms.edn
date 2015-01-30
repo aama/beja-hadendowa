@@ -3,18 +3,17 @@
 :sgpref "bha"
 :schemata {
 :aspect [:Perfect, :Present, :_NULL]
-	  :case [:Accusative, :Genitive, :Nominative, :Object, :Possessive]
+	  :case [:Object, :Subject, :Object, :Possessive]
 	  :clause [:_NULL]
 	  :clauseType [:Main, :Subordinate, :_NULL]
 	  :conjClass [:Prefix, :Suffix]
 	  :derivedStem [:B-Freq, :B-Intens, :B-Redup, :Base, :Intensive, :M, :Reciprocal, :S]
 	  :gender [:Common, :Fem, :Masc]
-	  :genderHead [:Fem, :Masc]
-	  :genderN1 [:Fem, :Masc]
-	  :genderN2 [:Fem, :Masc]
-	  :genderPoss [:Fem, :Masc]
+	  :genHead [:Fem, :Masc]
+	  :genN1 [:Fem, :Masc]
+	  :genN2 [:Fem, :Masc]
+	  :genPoss [:Fem, :Masc]
 	  :mood [:Common, :Imperative]
-	  :morphClass [:DervStemForm, :CONDPERF, :DEFART, :GENADJPART, :GENBEFOREPOSSSUFF, :GENPOSSPRED, :NUMERAL, :ORDNUM, :POSSSUFF, :PREFSUBJMARK, :PROIND, :PROINTERROG, :PROPOSSIND, :PROSUFF, :SUBJMARK, :SUFFCOND, :SUFFIMPR, :VBNOMFORM, :VBSUFFNOM]
 	  :nomForm [:Gerund, :NomAgent, :NominalAction, :NominalAgent, :Participle, :PerfectParticiple, :PresentParticitpl]
 	  :nonFiniteForm [:Gerund, :NomAgent, :NominalAction, :NominalAgent, :Participle, :PerfectParticiple, :PresentParticiple, :_NULL]
 	  :nounMorphClass [:GenAdjPart, :GenBeforePossSuff, :NumOrd, :Numeral]
@@ -29,7 +28,7 @@
 	  :proClass [:ArtDef, :Gen_PossPred, :Independent, :Interrogative, :PossInd, :PossSuff]
 	  :rootClass [:CC, :CCC]
 	  :tam [:Common, :Conditional, :ConditionalPerfect, :ConditionalPredicative, :Future, :Gerund, :Imperative, :Optative, :Past, :PastContinuous, :PerfectPast, :Predicative, :PrefectPast, :Present, :PresentContinuous, :_NULL]
-	  :verbMorphClass [:DervStemForm, :Formation, :NomForm, :SubjMarker]
+	  :verbMorphClass [:DervStemForm, :Formation, :NomForm, :SubjMarker, :SUFFCONDPERF]
 	  }
 :morphemes {
   :CONDPERF {:gloss "Conditional Perfect Formation", }
@@ -512,35 +511,6 @@
 	    [:Fem, :Singular, :Person2, "bittámɛi"],
 	    [:Common, :Plural, :Person1, "bintámɛi"],
 	    [:Fem, :Singular, :Person3, "bittámɛi"]]
-    }
-    {:label "beja_Ro-VPrefCCAffSubPast-bis"
-    :note "Roper1928 #167-191"
-    :common {:clauseType :Subordinate,
-	    :conjClass :Prefix,
-	    :lexeme :bis,
-	    :polarity :Affirmative,
-	    :pos :Verb,
-	    :rootClass :CC,
-	    :tam :Past}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "abĭsék"],
-	    [:Masc, :Plural, :Person3, "bisāb bīkaīnék"],
-	    [:Common, :Plural, :Person3, "ibĭsnék(na)"],
-	    [:Fem, :Plural, :Person1, "bisāt binkaiyék"],
-	    [:Common, :Singular, :Person2, "tibĭ̆sék"],
-	    [:Masc, :Singular, :Person1, "bisāb bākaiyék"],
-	    [:Fem, :Singular, :Person1, "bisāt bā̄kaiyék"],
-	    [:Masc, :Singular, :Person2, "bisāb bitkaiyék"],
-	    [:Fem, :Singular, :Person2, "bisāt bitkaiyék"],
-	    [:Masc, :Plural, :Person1, "bisāb binkaiyék"],
-	    [:Common, :Singular, :Person3, "ibĭsék"],
-	    [:Masc, :Singular, :Person3, "bisāb bikaiyék"],
-	    [:Fem, :Plural, :Person3, "bisāt bīkaīnék"],
-	    [:Fem, :Plural, :Person2, "bisāt bitkaīnék"],
-	    [:Fem, :Singular, :Person3, "bisāt bikaiyék"],
-	    [:Common, :Plural, :Person1, "nibĭsék"],
-	    [:Masc, :Plural, :Person2, "bisāb bitkaīnék"],
-	    [:Common, :Plural, :Person2, "tibĭsnék(na)"]]
     }
     {:label "beja_Ro-VPrefCCCondPerf-bis"
     :note "Roper1928 #167-191"
@@ -1152,24 +1122,6 @@
 	    [:Masc, :Singular, :Person3, "iktím"],
 	    [:Masc, :Singular, :Person2, "tíktima"]]
     }
-    {:label "beja_Ro-VPrefCCAffSubPres-bis"
-    :note "Roper1928 #167-191"
-    :common {:clauseType :Subordinate,
-	    :conjClass :Prefix,
-	    :gender :Common,
-	    :lexeme :bis,
-	    :polarity :Affirmative,
-	    :pos :Verb,
-	    :rootClass :CC,
-	    :tam :Present}
-    :terms [[:number, :person, :token]  ;; schema
-	    [:Singular, :Person1, "ambīsék"],
-	    [:Singular, :Person2, "timbīsék"],
-	    [:Plural, :Person2, "tɛbĭsék(na)"],
-	    [:Plural, :Person1, "nɛbĭ̆sék"],
-	    [:Singular, :Person3, "imbīsék"],
-	    [:Plural, :Person3, "ɛbĭsnék(na)"]]
-    }
     {:label "beja_Ro-VPrefCCCNomForm-kitim"
     :note "Roper1928 #192-197"
     :common {:conjClass :Prefix,
@@ -1502,24 +1454,6 @@
 	    [:Fem, :Singular, :Person2, "bá̄tamtii"],
 	    [:Common, :Plural, :Person2, "bá̄tamtīna"]]
     }
-    {:label "beja_Ro-VPrefCCNegSubPres-bis"
-    :note "Roper1928 #167-191"
-    :common {:clauseType :Subordinate,
-	    :conjClass :Prefix,
-	    :gender :Common,
-	    :lexeme :bis,
-	    :polarity :Negative,
-	    :pos :Verb,
-	    :rootClass :CC,
-	    :tam :Present}
-    :terms [[:number, :person, :token]  ;; schema
-	    [:Plural, :Person1, "binbīsnék"],
-	    [:Singular, :Person3, "bībīsék"],
-	    [:Plural, :Person3, "bībīsnék(na)"],
-	    [:Singular, :Person1, "bābīsék"],
-	    [:Plural, :Person2, "bitbīsnék(na)"],
-	    [:Singular, :Person2, "bitbīsék"]]
-    }
     {:label "beja_Ro-VPrefNegImprtv-i"
     :note "Roper1928 #256"
     :common {:conjClass :Prefix,
@@ -1563,24 +1497,6 @@
 	    :pos :Verb}
     :terms [[:token]  ;; schema
 	    ["‘ié"]]
-    }
-    {:label "beja_Ro-VSuffAffSubFuture-tam"
-    :note "Roper1928 #127-158"
-    :common {:clauseType :Subordinate,
-	    :conjClass :Suffix,
-	    :lexeme :tam,
-	    :polarity :Affirmative,
-	    :pos :Verb,
-	    :tam :Future}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "tám andiék"],
-	    [:Common, :Plural, :Person2, "támi tɛednék"],
-	    [:Common, :Plural, :Person3, "támi ɛednék"],
-	    [:Fem, :Singular, :Person3, "támi tindiék"],
-	    [:Common, :Plural, :Person1, "támi nɛãdék"],
-	    [:Masc, :Singular, :Person3, "tám indiék"],
-	    [:Masc, :Singular, :Person2, "támi tendiyék"],
-	    [:Fem, :Singular, :Person2, "támi tendiyék"]]
     }
     {:label "beja_Ro-VPrefAffImprtv-i"
     :note "Roper1928 #256"
@@ -1759,34 +1675,13 @@
 	    [:Fem, :Singular, :Person2, "tamténītui"],
 	    [:Masc, :Singular, :Person2, "tamínīwa"]]
     }
-    {:label "beja_Ro-VSuffCondPred"
-    :note "Roper1928 #127-158"
-    :common {:clause :_NULL,
-	    :conjClass :Suffix,
-	    :lexeme :tam,
-	    :polarity :U,
-	    :pos :Verb,
-	    :tam :ConditionalPredicative}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Fem, :Singular, :Person2, "támītui"],
-	    [:Masc, :Singular, :Person3, "támībi"],
-	    [:Masc, :Plural, :Person1, "támība"],
-	    [:Masc, :Plural, :Person2, "támībana"],
-	    [:Fem, :Singular, :Person1, "támīti"],
-	    [:Fem, :Plural, :Person2, "támītana"],
-	    [:Masc, :Singular, :Person2, "támīwa"],
-	    [:Fem, :Plural, :Person3, "támīta"],
-	    [:Masc, :Singular, :Person1, "támībi"],
-	    [:Fem, :Singular, :Person3, "támīti"],
-	    [:Masc, :Plural, :Person3, "támība"],
-	    [:Fem, :Plural, :Person1, "támīta"]]
-    }}
+}
 :muterms #{
     {:label "beja_Ro-VPrefIntensSubjMarker"
     :note "Roper1928 #213"
     :common {:conjClass :Prefix,
 	    :derivedStem :Intensive,
-	    :morphClass :SUBJMARK,
+	    
 	    :pos :Verb,
 	    :verbMorphClass :SubjMarker}
     :terms [[:gender, :number, :person, :token]  ;; schema
@@ -1799,36 +1694,18 @@
 	    [:Common, :Plural, :Person2, "te…i…ina"],
 	    [:Common, :Plural, :Person1, "ne…i…i"]]
     }
-    {:label "beja_Ro-VSuffCondPerf-tam"
-    :note "Roper1928 #127-158"
-    :common {:clauseType :_NULL,
-	    :conjClass :Suffix,
-	    :morphClass :CONDPERF,
-	    :polarity :U,
-	    :pos :Verb,
-	    :tam :ConditionalPerfect}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "gerund+nīkti"],
-	    [:Masc, :Singular, :Person3, "gerund+ (y)īkti"],
-	    [:Fem, :Singular, :Person2, "gerund+tīkti"],
-	    [:Common, :Plural, :Person2, "gerund+tīktīna"],
-	    [:Common, :Singular, :Person1, "gerund+īkti (cond ak-)"],
-	    [:Fem, :Singular, :Person3, "gerund+tīkti"],
-	    [:Common, :Plural, :Person3, "gerund+ (y)īktīn(a)"],
-	    [:Masc, :Singular, :Person2, "gerund+tīkti"]]
-    }
     {:label "beja_Ro-VSuffCondPerf"
     :note "Roper1928 #127-158"
     :common {:clause :_NULL,
 	    :conjClass :Suffix,
-	    :morphClass :SUFFCONDPERF,
+	    :verbMorphClass :SUFFCONDPERF,
 	    :polarity :U,
 	    :pos :Verb,
 	    :tam :ConditionalPerfect}
     :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "gerund+ (y)īkti"],
+	    [:Masc, :Singular, :Person3, "gerund+(y)īkti"],
 	    [:Common, :Plural, :Person1, "gerund+nīkti"],
-	    [:Common, :Plural, :Person3, "gerund+ (y)īktīn(a)"],
+	    [:Common, :Plural, :Person3, "gerund+(y)īktīn(a)"],
 	    [:Common, :Singular, :Person1, "gerund+īkti (cond ak-)"],
 	    [:Fem, :Singular, :Person3, "gerund+tīkti"],
 	    [:Masc, :Singular, :Person2, "gerund+tīkti"],
@@ -1838,7 +1715,7 @@
     {:label "beja_Ro-VPrefNomForm"
     :note "Roper1928 #170-175"
     :common {:conjClass :Prefix,
-	    :morphClass :VBNOMFORM,
+	    
 	    :pos :Verb,
 	    :verbMorphClass :NomForm}
     :terms [[:nomForm, :nonFiniteForm, :polarity, :token]  ;; schema
@@ -1855,26 +1732,26 @@
              :pos :Pronoun,
 	    :proClass :Independent}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
-	    [:Nominative, :Fem, :Plural, :Person2,  "baták"],
-	    [:Accusative, :Masc, :Plural, :Person2,  "barék(na)"],
-	    [:Nominative, :Fem, :Singular, :Person3,  "batu"],
-	    [:Nominative, :Masc, :Singular, :Person2,  "baruk"],
-	    [:Accusative, :Fem, :Singular, :Person3,  "bató"],
-	    [:Accusative, :Masc, :Plural, :Person3,  "bare"],
-	    [:Accusative, :Common, :Plural, :Person1,  "henén"],
-	    [:Nominative, :Fem, :Singular, :Person2,  "batuk"],
-	    [:Accusative, :Masc, :Singular, :Person2,  "barók"],
-	    [:Nominative, :Masc, :Plural, :Person3,  "bará"],
-	    [:Nominative, :Fem, :Plural, :Person3,  "batá"],
-	    [:Nominative, :Masc, :Plural, :Person2,  "barák"],
-	    [:Accusative, :Fem, :Plural, :Person2,  "baték(na)"],
-	    [:Accusative, :Fem, :Singular, :Person2,  "batók"],
-	    [:Nominative, :Common, :Plural, :Person1,  "henén"],
-	    [:Accusative, :Common, :Singular, :Person1,  "áneb"],
-	    [:Accusative, :Masc, :Singular, :Person3,  "baró"],
-	    [:Nominative, :Masc, :Singular, :Person3,  "baru"],
-	    [:Accusative, :Fem, :Plural, :Person3,  "baté"],
-	    [:Nominative, :Common, :Singular, :Person1,  "áne"]]
+	    [:Subject, :Fem, :Plural, :Person2,  "baták"],
+	    [:Object, :Masc, :Plural, :Person2,  "barék(na)"],
+	    [:Subject, :Fem, :Singular, :Person3,  "batu"],
+	    [:Subject, :Masc, :Singular, :Person2,  "baruk"],
+	    [:Object, :Fem, :Singular, :Person3,  "bató"],
+	    [:Object, :Masc, :Plural, :Person3,  "bare"],
+	    [:Object, :Common, :Plural, :Person1,  "henén"],
+	    [:Subject, :Fem, :Singular, :Person2,  "batuk"],
+	    [:Object, :Masc, :Singular, :Person2,  "barók"],
+	    [:Subject, :Masc, :Plural, :Person3,  "bará"],
+	    [:Subject, :Fem, :Plural, :Person3,  "batá"],
+	    [:Subject, :Masc, :Plural, :Person2,  "barák"],
+	    [:Object, :Fem, :Plural, :Person2,  "baték(na)"],
+	    [:Object, :Fem, :Singular, :Person2,  "batók"],
+	    [:Subject, :Common, :Plural, :Person1,  "henén"],
+	    [:Object, :Common, :Singular, :Person1,  "áneb"],
+	    [:Object, :Masc, :Singular, :Person3,  "baró"],
+	    [:Subject, :Masc, :Singular, :Person3,  "baru"],
+	    [:Object, :Fem, :Plural, :Person3,  "baté"],
+	    [:Subject, :Common, :Singular, :Person1,  "áne"]]
     }
     {:label "beja_H-P3sgProDialectDist"
     :common {:morpheme :PROSUFF,
@@ -1907,7 +1784,7 @@
     :common {:morpheme :POSSSUFF,
              :pos :Pronoun,
 	    :proClass :PossSuff}
-    :terms [[:genderHead, :numHead, :number, :person,  :token]  ;; schema
+    :terms [[:genHead, :numHead, :number, :person,  :token]  ;; schema
 	    [:Fem, :Singular, :Plural, :Person3,  "-tu"],
 	    [:Masc, :Singular, :Singular, :Person2,  "-uk"],
 	    [:Fem, :Singular, :Singular, :Person3,  "-tu"],
@@ -1935,7 +1812,7 @@
     }
     {:label "beja_Ro-NNumerals"
     :note "Roper1928 #69"
-    :common {:morphClass :NUMERAL,
+    :common {
 	    :nounMorphClass :Numeral,
 	    :pos :Noun}
     :terms [[:gender, :token-numGloss, :token]  ;; schema
@@ -1994,7 +1871,7 @@
     {:label "beja_Ro-VSuffImprtvFormation"
     :note "Roper1928 #127"
     :common {:conjClass :Suffix,
-	    :morphClass :SUFFIMPRTV,
+	    
 	    :mood :Imperative,
 	    :pos :Verb,
 	    :tam :Imperative,
@@ -2010,7 +1887,7 @@
     {:label "beja_Ro-VSuffNomForm"
     :note "Roper1928 #121-126"
     :common {:conjClass :Suffix,
-	    :morphClass :VBSUFFNOMFORM,
+	    
 	    :mood :Common,
 	    :pos :Verb,
 	    :verbMorphClass :NomForm}
@@ -2027,11 +1904,11 @@
     {:label "beja_Ro-PGen_PossPred"
     :note "Roper1928 #107. for plural nomen rectum [i.e. numPoss pl]change the genitival –i-
             throughout to –e-"
-    :common {:morphClass :GENPOSSPRED,
+    :common {
 	    :numPoss :Singular,
              :pos :Pronoun,
 	    :proClass :Gen_PossPred}
-    :terms [[:genderPoss, :genderHead, :numHead, :number, :person,  :token]  ;; schema
+    :terms [[:genPoss, :genHead, :numHead, :number, :person,  :token]  ;; schema
 	    [:Masc, :Fem, :Singular, :Singular, :Person3,  "-ithiti"],
 	    [:Fem, :Masc, :Plural, :Plural, :Person1,  "-tiena"],
 	    [:Masc, :Fem, :Plural, :Plural, :Person3,  "-ihtinata"],
@@ -2083,7 +1960,7 @@
     }
     {:label "beja_Ro-NNumOrd"
     :note "Roper1928 #77"
-    :common {:morphClass :ORDNUM,
+    :common {
 	    :nounMorphClass :NumOrd,
 	    :pos :Noun}
     :terms [[:token, :token-gloss]  ;; schema
@@ -2100,30 +1977,30 @@
     }
     {:label "beja_Ro-PInterrog"
     :note "Roper1928 #110"
-    :common {:morphClass :PROINTERROG,
+    :common {
              :pos :Pronoun
 	    :proClass :Interrogative}
     :terms [[:case, :gender, :numHead, :number,  :token]  ;; schema
-	    [:Genitive, :Masc, :Singular, :Plural,  "ai"],
-	    [:Accusative, :Fem, :Common, :Plural,  "abtka"],
-	    [:Genitive, :Masc, :Plural, :Plural,  "aigai"],
-	    [:Nominative, :Masc, :Common, :Plural,  "auka"],
-	    [:Genitive, :Fem, :Singular, :Plural,  "ait"],
-	    [:Genitive, :Masc, :Singular, :Singular,  "ai"],
-	    [:Genitive, :Fem, :Plural, :Singular,  "aigaiet"],
-	    [:Genitive, :Fem, :Singular, :Singular,  "ait"],
-	    [:Nominative, :Fem, :Common, :Singular,  "aut"],
-	    [:Accusative, :Masc, :Common, :Singular,  "ab"],
-	    [:Genitive, :Masc, :Plural, :Singular,  "aigai"],
-	    [:Nominative, :Fem, :Common, :Plural,  "autka"],
-	    [:Accusative, :Fem, :Common, :Singular,  "abt"],
-	    [:Genitive, :Fem, :Plural, :Plural,  "aigaiet"],
-	    [:Nominative, :Masc, :Common, :Singular,  "au"],
-	    [:Accusative, :Masc, :Common, :Plural,  "abka"]]
+	    [:Possessive, :Masc, :Singular, :Plural,  "ai"],
+	    [:Object, :Fem, :Common, :Plural,  "abtka"],
+	    [:Possessive, :Masc, :Plural, :Plural,  "aigai"],
+	    [:Subject, :Masc, :Common, :Plural,  "auka"],
+	    [:Possessive, :Fem, :Singular, :Plural,  "ait"],
+	    [:Possessive, :Masc, :Singular, :Singular,  "ai"],
+	    [:Possessive, :Fem, :Plural, :Singular,  "aigaiet"],
+	    [:Possessive, :Fem, :Singular, :Singular,  "ait"],
+	    [:Subject, :Fem, :Common, :Singular,  "aut"],
+	    [:Object, :Masc, :Common, :Singular,  "ab"],
+	    [:Possessive, :Masc, :Plural, :Singular,  "aigai"],
+	    [:Subject, :Fem, :Common, :Plural,  "autka"],
+	    [:Object, :Fem, :Common, :Singular,  "abt"],
+	    [:Possessive, :Fem, :Plural, :Plural,  "aigaiet"],
+	    [:Subject, :Masc, :Common, :Singular,  "au"],
+	    [:Object, :Masc, :Common, :Plural,  "abka"]]
     }
     {:label "beja_Ro-PPossInd"
     :note "Roper1928 #89"
-    :common {:morphClass :PROPOSSIND,
+    :common {
              :pos :Pronoun,
 	    :proClass :PossInd}
     :terms [[:gender, :numHead, :number, :person,  :token]  ;; schema
@@ -2150,10 +2027,10 @@
     }
     {:label "beja_Ro-NGenBeforePossSuff"
     :note "Roper1928 #106"
-    :common {:morphClass :GENBEFOREPOSSSUFF,
+    :common {
 	    :nounMorphClass :GenBeforePossSuff,
 	    :pos :Noun}
-    :terms [[:genderPoss, :genderHead, :numPoss, :token]  ;; schema
+    :terms [[:genPoss, :genHead, :numPoss, :token]  ;; schema
 	    [:Fem, :Fem, :Singular, "-tit-"],
 	    [:Masc, :Fem, :Singular, "-it-"],
 	    [:Masc, :Fem, :Plural, "-et-"],
@@ -2165,26 +2042,26 @@
     }
     {:label "beja_Ro-PArtDef"
     :note "Roper1928 #26"
-    :common {:morphClass :DEFART,
+    :common {
              :pos :Pronoun,
 	    :proClass :ArtDef}
     :terms [[:case, :gender, :number, :token]  ;; schema
-	    [:Accusative, :Masc, :Plural,  "e"],
-	    [:Accusative, :Fem, :Plural,  "te"],
-	    [:Nominative, :Fem, :Plural,  "ta"],
-	    [:Nominative, :Fem, :Singular,  "tu"],
-	    [:Accusative, :Fem, :Singular,  "to"],
-	    [:Nominative, :Masc, :Singular,  "u"],
-	    [:Accusative, :Masc, :Singular,  "o"],
-	    [:Nominative, :Masc, :Plural,  "a"]]
+	    [:Object, :Masc, :Plural,  "e"],
+	    [:Object, :Fem, :Plural,  "te"],
+	    [:Subject, :Fem, :Plural,  "ta"],
+	    [:Subject, :Fem, :Singular,  "tu"],
+	    [:Object, :Fem, :Singular,  "to"],
+	    [:Subject, :Masc, :Singular,  "u"],
+	    [:Object, :Masc, :Singular,  "o"],
+	    [:Subject, :Masc, :Plural,  "a"]]
     }
     {:label "beja_Ro-NGenAdjPart"
     :note "Roper1928 #62. Possessive construction where N1 is modified by an adjective.
             Pattern is:[N1 Adj]+genAdjPart N2 the Adj N1s N2"
-    :common {:morphClass :GENADJPART,
+    :common {
 	    :nounMorphClass :GenAdjPart,
 	    :pos :Noun}
-    :terms [[:genderN1, :genderN2, :numN1, :token]  ;; schema
+    :terms [[:genN1, :genN2, :numN1, :token]  ;; schema
 	    [:Masc, :Fem, :Common, "-nait"],
 	    [:Masc, :Masc, :Common, "-nai"],
 	    [:Fem, :Masc, :Common, "-nati"],
