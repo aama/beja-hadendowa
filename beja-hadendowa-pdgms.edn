@@ -1755,7 +1755,8 @@
     {:label "beja_H-P3sgProDialectDist"
     :common {:morpheme :PROSUFF,
 	    :pdgmType :Structure,
-	    :pos :Pronoun}
+	    :pos :Pronoun
+             :person :Person3}
     :terms [[:case, :number, :token]  ;; schema
 	    [:Possessive, :Singular, "⊤"],
 	    [:Possessive, :Plural, "-  / - hna"],
@@ -1976,7 +1977,8 @@
     {:label "beja_Ro-PInterrog"
     :note "Roper1928 #110"
     :common {
-             :pos :Pronoun
+             :pos :Pronoun,
+             :person :Person3,
 	    :proClass :Interrogative}
     :terms [[:case, :gender, :numHead, :number,  :token]  ;; schema
 	    [:Possessive, :Masc, :H_Singular, :Plural,  "ai"],
@@ -2042,6 +2044,7 @@
     :note "Roper1928 #26"
     :common {
              :pos :Pronoun,
+             :person :Person3,
 	    :proClass :ArtDef}
     :terms [[:case, :gender, :number, :token]  ;; schema
 	    [:Object, :Masc, :Plural,  "e"],
