@@ -11,16 +11,15 @@
 	  :genHead [:H_Fem, :H_Masc]
 	  :genN1 [:N1_Fem, :N1_Masc]
 	  :genN2 [:N2_Fem, :N2_Masc]
-	  :mood [:Common, :Imperative]
            :MorphClass [:DervStemForm, :Formation, :NomForm, :SubjMarker, :SUFFCONDPERF]
-           :nonFiniteForm [:Gerund, :NomAgent, :NominalAction, :NominalAgent, :Participle, :PerfectParticiple, :PresentParticiple]
+           :nonFiniteForm [:Gerund, :NominalAction, :NominalAgent, :Participle, :PerfectParticiple, :PresentParticiple]
 	  :nounMorphClass [:GenAdjPart, :GenBeforePossSuff, :NumOrd, :Numeral]
 	  :numHead [:H_Common, :H_Plural, :H_Singular]
 	  :numN1 [:N1_Common, :N1_Plural, :N1_Singular]
 	  :numPoss [:Plural, :Singular] ;; lookup
-	  :number [:Common, :Person1, :Plural, :Singular]
+	  :number [:Plural, :Singular]
 	  :pdgmType [:Structure]
-	  :person [:Common, :Person1, :Person2, :Person3, :Plural, :Singular]
+	  :person [:Person1, :Person2, :Person3]
 	  :polarity [:Affirmative, :Negative]
 	  :pos [:Noun, :Pronoun, :Verb]
 	  :proClass [:ArtDef, :Gen_PossPred, :Independent, :Interrogative, :PossInd, :PossSuff]
@@ -1025,7 +1024,7 @@
     :note "Roper1928 #256"
     :common {:conjClass :Prefix,
 	    :lexeme :i,
-	    :person :Common,
+	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
@@ -1141,7 +1140,7 @@
     :common {:conjClass :Prefix,
 	    :lexeme :kitim,
 	    :number :Singular,
-	    :person :Common,
+	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
@@ -1369,8 +1368,6 @@
     {:label "beja_Ro-VSuffImprtvFormation"
     :note "Roper1928 #127"
     :common {:conjClass :Suffix,
-	    
-	    :mood :Imperative,
 	    :pos :Verb,
 	    :tam :Imperative,
 	    :verbMorphClass :Formation}
@@ -1385,19 +1382,17 @@
     {:label "beja_Ro-VSuffNomForm"
     :note "Roper1928 #121-126"
     :common {:conjClass :Suffix,
-	    
-	    :mood :Common,
 	    :pos :Verb,
 	    :verbMorphClass :NomForm}
     :terms [[:aspect, :gender, :nonFiniteForm, :number, :polarity, :tam, :token]  ;; schema
 	    [:Present, :_NA, :Participle, :_NA, :Affirmative, :_NA, "-e"],
-	    [:_NA, :Masc, :NominalAction, :Singular, :_NA, :Common, "-ti"],
-	    [:_NA, :Masc, :NomAgent, :Singular, :_NA, :Common, "-ana"],
-	    [:_NA, :_NA, :Gerund, :_NA, :Common, :_NA, "-a"],
-	    [:_NA, :Fem, :NominalAgent, :Singular, :_NA, :Common, "-ana"],
+	    [:_NA, :Masc, :NominalAction, :Singular, :_NA, :_NA, "-ti"],
+	    [:_NA, :Masc, :NominalAgent, :Singular, :_NA, :_NA, "-ana"],
+	    [:_NA, :_NA, :Gerund, :_NA, :_NA, :_NA, "-a"],
+	    [:_NA, :Fem, :NominalAgent, :Singular, :_NA, :_NA, "-ana"],
 	    [:Present, :_NA, :Participle, :_NA, :Negative, :_NA, "-ba…e"],
-	    [:Perfect, :_NA, :Participle, :_NA, :Common, :Past, "-etit"],
-	    [:Perfect, :_NA, :Participle, :_NA, :Common, :Present, "-eti"]]
+	    [:Perfect, :_NA, :Participle, :_NA, :_NA, :Past, "-etit"],
+	    [:Perfect, :_NA, :Participle, :_NA, :_NA, :Present, "-eti"]]
     }
     {:label "beja_Ro-PGen_PossPred"
     :note "Roper1928 #107. for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-"
