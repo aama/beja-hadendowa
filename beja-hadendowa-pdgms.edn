@@ -6,7 +6,7 @@
 	  :case [:Object, :Subject, :Object, :Possessive]
 	  :clauseType [:Main, :Subordinate]
 	  :conjClass [:Prefix, :Suffix]
-	  :derivedStem [:B-Freq, :B-Intens, :B-Redup, :Base, :Intensive, :M, :Reciprocal, :S]
+	  :derivedStem [:B_Freq, :B_Intens, :B_Redup, :Base, :Intensive, :M, :Reciprocal, :S]
 	  :gender [:Common, :Fem, :Masc]
 	  :genHead [:H_Fem, :H_Masc]
 	  :genN1 [:N1_Fem, :N1_Masc]
@@ -16,7 +16,6 @@
 	  :nounMorphClass [:GenAdjPart, :GenBeforePossSuff, :NumOrd, :Numeral]
 	  :numHead [:H_Common, :H_Plural, :H_Singular]
 	  :numN1 [:N1_Common, :N1_Plural, :N1_Singular]
-	  :numPoss [:Plural, :Singular] ;; lookup
 	  :number [:Plural, :Singular]
 	  :pdgmType [:Structure]
 	  :person [:Person1, :Person2, :Person3]
@@ -275,48 +274,48 @@
 	    :verbMorphClass :DervStemForm}
     :terms [[:derivedStem, :lexeme, :nonFiniteForm, :polarity, :tam, :token]  ;; schema
 	    [:S, :sodira, :_NA, :_NA, :Gerund, "sodira"],
-	    [:B-Intens, :gid, :_NA, :_NA, :_NA, "ged"],
+	    [:B_Intens, :gid, :_NA, :_NA, :_NA, "ged"],
 	    [:S, :kitim, :_NA, :_NA, :_NA, "sikatim"],
 	    [:M, :min, :_NA, :Affirmative, :Present, "atómīn"],
-	    [:B-Intens, :kitim, :_NA, :Affirmative, :Conditional, "īktám"],
-	    [:B-Intens, :kitim, :_NA, :Affirmative, :Imperative, "kātima"],
+	    [:B_Intens, :kitim, :_NA, :Affirmative, :Conditional, "īktám"],
+	    [:B_Intens, :kitim, :_NA, :Affirmative, :Imperative, "kātima"],
 	    [:S, :sodira, :_NA, :Affirmative, :Past, "asodír"],
 	    [:S, :sodira, :_NA, :Negative, :Imperative, "bāsodīra"],
 	    [:S, :sodira, :NominalAction, :_NA, :_NA, "sodirói"],
 	    [:S, :sodira, :Participle, :Negative, :_NA, "bāsodīr"],
-	    [:B-Intens, :kitim, :_NA, :Affirmative, :Past, "akātím"],
+	    [:B_Intens, :kitim, :_NA, :Affirmative, :Past, "akātím"],
 	    [:M, :min, :_NA, :Affirmative, :Imperative, "atómāna"],
 	    [:M, :min, :NominalAction, :_NA, :_NA, "atominói"],
 	    [:Reciprocal, :m-, :_NA, :_NA, :_NA, "(a)m-"],
 	    [:M, :min, :_NA, :_NA, :Conditional, "itūmín"],
 	    [:M, :min, :_NA, :Negative, :Present, "titómīna"],
 	    [:Base, :bar, :_NA, :_NA, :Imperative, "b’ára"],
-	    [:B-Intens, :kitim, :Participle, :Negative, :_NA, "bākātim"],
-	    [:B-Intens, :kitim, :Participle, :Affirmative, :_NA, "kātima"],
+	    [:B_Intens, :kitim, :Participle, :Negative, :_NA, "bākātim"],
+	    [:B_Intens, :kitim, :Participle, :Affirmative, :_NA, "kātima"],
 	    [:M, :min, :_NA, :Negative, :Imperative, "bātómīna"],
 	    [:M, :to, :_NA, :_NA, :_NA, "(a)to-"],
 	    [:M, :min, :_NA, :Negative, :Past, "titómāna"],
-	    [:B-Intens, :bis, :_NA, :_NA, :_NA, "bos"],
-	    [:B-Intens, :bir, :_NA, :_NA, :_NA, "bor"],
+	    [:B_Intens, :bis, :_NA, :_NA, :_NA, "bos"],
+	    [:B_Intens, :bir, :_NA, :_NA, :_NA, "bor"],
 	    [:S, :sodira, :_NA, :Negative, :Past, "tesódira"],
-	    [:B-Redup, :kitim, :_NA, :_NA, :_NA, "kitimkitm"],
+	    [:B_Redup, :kitim, :_NA, :_NA, :_NA, "kitimkitm"],
 	    [:S, :sodira, :_NA, :Negative, :Present, "tesódīra"],
-	    [:B-Freq, :kitim, :_NA, :_NA, :_NA, "kātatim"],
+	    [:B_Freq, :kitim, :_NA, :_NA, :_NA, "kātatim"],
 	    [:Base, :bar, :_NA, :_NA, :Present, "amb’í̄r"],
 	    [:Reciprocal, :mo, :_NA, :_NA, :_NA, "(a)mo-"],
 	    [:M, :min, :_NA, :Affirmative, :Past, "atomān"],
-	    [:B-Intens, :kitim, :_NA, :Affirmative, :Present, "ɛktīm"],
-	    [:B-Intens, :kitim, :_NA, :Negative, :Imperative, "bākātīma"],
+	    [:B_Intens, :kitim, :_NA, :Affirmative, :Present, "ɛktīm"],
+	    [:B_Intens, :kitim, :_NA, :Negative, :Imperative, "bākātīma"],
 	    [:M, :min, :Participle, :Negative, :_NA, "bātomīn"],
 	    [:S, :sodira, :_NA, :Affirmative, :Imperative, "sódira"],
 	    [:Base, :bar, :_NA, :_NA, :Past, "ab’ár"],
 	    [:S, :sodira, :_NA, :Affirmative, :Present, "asodí̄r"],
 	    [:Base, :bar, :_NA, :_NA, :Conditional, "īb’ár"],
-	    [:B-Intens, :sodira, :_NA, :_NA, :_NA, "dār"],
-	    [:B-Intens, :kitim, :_NA, :_NA, :_NA, "kātim"],
-	    [:B-Intens, :kitim, :_NA, :_NA, :Gerund, "kātima"],
+	    [:B_Intens, :sodira, :_NA, :_NA, :_NA, "dār"],
+	    [:B_Intens, :kitim, :_NA, :_NA, :_NA, "kātim"],
+	    [:B_Intens, :kitim, :_NA, :_NA, :Gerund, "kātima"],
 	    [:S, :sodira, :_NA, :_NA, :Conditional, "isūdír"],
-	    [:B-Intens, :nis, :_NA, :_NA, :_NA, "nos"],
+	    [:B_Intens, :nis, :_NA, :_NA, :_NA, "nos"],
 	    [:M, :t-, :_NA, :_NA, :_NA, "(a)t-"],
 	    [:M, :min, :_NA, :_NA, :Gerund, "atomina"]]
     }
@@ -1255,10 +1254,10 @@
 	    :pos :Pronoun
              :person :Person3}
     :terms [[:case, :number, :token]  ;; schema
-	    [:Possessive, :Singular, "⊤"],
+	    [:Possessive, :Singular, "..."],
 	    [:Possessive, :Plural, "-  / - hna"],
-	    [:Object, :Singular, "⊤"],
-	    [:Object, :Plural, "⊤"]]
+	    [:Object, :Singular, "..."],
+	    [:Object, :Plural, "..."]]
     }
     {:label "beja_Ro-VPrefSubjMarker"
     :note "Roper1928 #167"
@@ -1490,7 +1489,7 @@
 	    [:Object, :Masc, :H_Common, :Plural,  "abka"]]
     }
     {:label "beja_Ro-PPossInd"
-    :note "Roper1928 #89"
+    :note "Roper1928 #89; w. head masc nom -- see ##90-91 for head accusative or fem"
     :common {
              :pos :Pronoun,
 	    :proClass :PossInd}
