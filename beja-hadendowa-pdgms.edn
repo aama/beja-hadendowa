@@ -1,6 +1,9 @@
 {
 :lang :beja-hadendowa
 :sgpref "bha"
+:datasource "Roper1928" 
+:geodemoURL "http://www.ethnologue.com/language/bej"
+:geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
 :schemata {
            :aspect [:Perfect, :Present]
 	  :case [:Object, :Subject, :Object, :Possessive]
@@ -930,7 +933,7 @@
 	    [:Masc, :Singular, :Person2, "tamtai kíthãya"],
 	    [:Common, :Singular, :Person1, "tamán káhai"]]
     }
-    {:label "beja_Ro-VSuffAffSubPerfPast -tam"
+    {:label "beja_Ro-VSuffAffSubPerfPast-tam"
     :note "Roper1928 #127-158"
     :common {:clauseType :Subordinate,
 	    :conjClass :Suffix,
