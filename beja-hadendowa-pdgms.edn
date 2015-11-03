@@ -1314,9 +1314,9 @@
     :common {
 	    :nounMorphClass :Numeral,
 	    :pos :Noun}
-    :terms [[:gender, :token-numGloss, :token]  ;; schema
+    :terms [[:gender, :token-note, :token]  ;; schema
 	    [:Masc, "11", "tamnágwir"],
-	    [:Common, "p2", "mále"],
+	    [:Common, "2", "mále"],
 	    [:Common, "100", "še"],
 	    [:Common, "2000", "tágug še"],
 	    [:Common, "28", "tággwasimhéi"],
@@ -1325,11 +1325,11 @@
 	    [:Common, "60", "aságwirtamun"],
 	    [:Common, "24", "tággwafádig"],
 	    [:Common, "12", "támnamále"],
-	    [:Masc, "p1", "gal"],
+	    [:Masc, "1", "gal"],
 	    [:Common, "17", "támenasaráma"],
 	    [:Common, "70", "asarámatamun"],
 	    [:Common, "40", "fádigtamun"],
-	    [:Common, "p3", "mehei"],
+	    [:Common, "3", "mehei"],
 	    [:Common, "90", "aššádigtamun"],
 	    [:Common, "7", "asaráma"],
 	    [:Common, "25", "tággwéi"],
@@ -1455,7 +1455,7 @@
     :common {
 	    :nounMorphClass :NumOrd,
 	    :pos :Noun}
-    :terms [[:token, :token-gloss]  ;; schema
+    :terms [[:token, :token-note]  ;; schema
 	    ["ásimha", "eighth"],
 	    ["mália", "second"],
 	    ["aságwira", "sixth"],
