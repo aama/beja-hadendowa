@@ -2,6 +2,7 @@
 :lang :beja-hadendowa
 :sgpref "bha"
 :datasource "Roper1928" 
+:datasourceNotes "Roper uses the term 'conditional' for what is here termed ':Aorist'"
 :geodemoURL "http://www.ethnologue.com/language/bej"
 :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
 :schemata {
@@ -26,12 +27,12 @@
 	  :pos [:Noun, :Pronoun, :Verb]
 	  :proClass [:ArtDef, :Gen_PossPred, :Independent, :Interrogative, :PossInd, :PossSuff]
 	  :rootClass [:CC, :CCC]
-	  :tam [:Conditional, :ConditionalPerfect, :ConditionalPredicative, :Future, :Gerund, :Imperative, :Optative, :Past, :PastContinuous, :PerfectPast, :Predicative, :Present, :PresentContinuous]
+	  :tam [:Aorist, :ConditionalPerfect, :ConditionalPredicative, :Future, :Gerund, :Imperative, :Optative, :Past, :PastContinuous, :PerfectPast, :Predicative, :Present, :PresentContinuous]
 	  }
 :pclass {
-           :pngClass [:person :number :gender ]
-           :synsemClass [:case  :derivedStem :polarity :pos :proClass :tam ]
-           :inflClass [:conjClass  ]
+           :pngClass [:person :number :gender :genHead :genN1 :genN2 :numHead :numN1 ]
+           :synsemClass [:aspect :clauseType :case  :derivedStem :nonFiniteForm :polarity :pos :proClass :tam ]
+           :inflClass [:conjClass :rootClass ]
            :otherClass [ ]
           }
 :morphemes {
@@ -280,7 +281,7 @@
 	    [:B_Intens, :gid, :_NA, :_NA, :_NA, "ged"],
 	    [:S, :kitim, :_NA, :_NA, :_NA, "sikatim"],
 	    [:M, :min, :_NA, :Affirmative, :Present, "atómīn"],
-	    [:B_Intens, :kitim, :_NA, :Affirmative, :Conditional, "īktám"],
+	    [:B_Intens, :kitim, :_NA, :Affirmative, :Aorist, "īktám"],
 	    [:B_Intens, :kitim, :_NA, :Affirmative, :Imperative, "kātima"],
 	    [:S, :sodira, :_NA, :Affirmative, :Past, "asodír"],
 	    [:S, :sodira, :_NA, :Negative, :Imperative, "bāsodīra"],
@@ -290,7 +291,7 @@
 	    [:M, :min, :_NA, :Affirmative, :Imperative, "atómāna"],
 	    [:M, :min, :NominalAction, :_NA, :_NA, "atominói"],
 	    [:Reciprocal, :m-, :_NA, :_NA, :_NA, "(a)m-"],
-	    [:M, :min, :_NA, :_NA, :Conditional, "itūmín"],
+	    [:M, :min, :_NA, :_NA, :Aorist, "itūmín"],
 	    [:M, :min, :_NA, :Negative, :Present, "titómīna"],
 	    [:Base, :bar, :_NA, :_NA, :Imperative, "b’ára"],
 	    [:B_Intens, :kitim, :Participle, :Negative, :_NA, "bākātim"],
@@ -313,11 +314,11 @@
 	    [:S, :sodira, :_NA, :Affirmative, :Imperative, "sódira"],
 	    [:Base, :bar, :_NA, :_NA, :Past, "ab’ár"],
 	    [:S, :sodira, :_NA, :Affirmative, :Present, "asodí̄r"],
-	    [:Base, :bar, :_NA, :_NA, :Conditional, "īb’ár"],
+	    [:Base, :bar, :_NA, :_NA, :Aorist, "īb’ár"],
 	    [:B_Intens, :sodira, :_NA, :_NA, :_NA, "dār"],
 	    [:B_Intens, :kitim, :_NA, :_NA, :_NA, "kātim"],
 	    [:B_Intens, :kitim, :_NA, :_NA, :Gerund, "kātima"],
-	    [:S, :sodira, :_NA, :_NA, :Conditional, "isūdír"],
+	    [:S, :sodira, :_NA, :_NA, :Aorist, "isūdír"],
 	    [:B_Intens, :nis, :_NA, :_NA, :_NA, "nos"],
 	    [:M, :t-, :_NA, :_NA, :_NA, "(a)t-"],
 	    [:M, :min, :_NA, :_NA, :Gerund, "atomina"]]
@@ -327,7 +328,7 @@
     :common {	    :conjClass :Suffix,
 	    :lexeme :tam,
 	    :pos :Verb,
-	    :tam :Conditional}
+	    :tam :Aorist}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "támí"],
 	    [:Common, :Plural, :Person3, "támīna"],
@@ -679,7 +680,7 @@
 	    :lexeme :bis,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Conditional}
+	    :tam :Aorist}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "tībís"],
 	    [:Masc, :Singular, :Person2, "tí̄bisa"],
@@ -916,8 +917,7 @@
 	    [:Masc, :Plural, :Person1, "bisá̄b kínkĕ"]]
     }
     {:label "beja_Ro-VSuffNegPresCont-tam"
-    :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full
-            conjClassugations given only in ##257-258]"
+    :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]"
     :common {:conjClass :Suffix,
 	    :lexeme :tam,
 	    :polarity :Negative,
@@ -1125,7 +1125,7 @@
 	    :lexeme :kitim,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Conditional,
+	    :tam :Aorist,
 	    }
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "tí̄ktimi"],
