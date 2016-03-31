@@ -436,7 +436,7 @@
             :pos :Verb,
             :tam :Gerund}
     :terms [[:token] ;; schema
-(["‘ia"]]
+            ["‘ia"]]
     }
     {:label "beja_Ro-VPrefMainAffCCImprtv-bis"
     :note "Roper1928 #167-191"
@@ -617,7 +617,7 @@
             :pos :Verb,
             :tam :Imperative}
     :terms [[:token] ;; schema
-(["bá̄’iyā"]]
+            ["bá̄’iyā"]]
     }
     {:label "beja_Ro-VPrefNomAgent-i"
     :note "Roper1928 #256"
@@ -627,7 +627,7 @@
             :nonFiniteForm :NominalAgent,
             :pos :Verb}
     :terms [[:token] ;; schema
-(["aiana"]]
+            ["aiana"]]
     }
     {:label "beja_Ro-VPrefParticiple-i"
     :note "Roper1928 #256"
@@ -637,7 +637,7 @@
             :nonFiniteForm :Participle,
             :pos :Verb}
     :terms [[:token] ;; schema
-(["‘ié"]]
+            ["‘ié"]]
     }
     {:label "beja_Ro-VPrefPast-i"
     :note "Roper1928 #256"
@@ -896,7 +896,7 @@
             :clauseType :Subordinate,
             :number :Plural}
     :terms [[:token] ;; schema
-(["tamāt nekatiyék"]]
+            ["tamāt nekatiyék"]]
     }
     {:label "beja_Ro-VSuffAffSubPerfPast-tam"
     :note "Roper1928 #127-158"
@@ -1147,7 +1147,7 @@
             :clauseType :Subordinate,
             :number :Plural}
     :terms [[:token] ;; schema
-(["tamāt nekatiyék"]]
+            ["tamāt nekatiyék"]]
     }
     {:label "beja_Ro-VSuffSubAffPerfPast"
     :note "Roper1928 #127-158"
@@ -1210,14 +1210,14 @@
     :common {:nounMorphClass :NumOrd,
             :pos :Noun}
     :terms [[:token-note :token] ;; schema
-(["eighth" "ásimha"] ["fifth" "éiya"] ["first" "áwwali"] ["fourth" "fádiga"] ["ninth" "aššádiga"] ["second" "mália"] ["seventh" "asarama"] ["sixth" "aságwira"] ["tenth" "támna"] ["third" "mehéa"]]
+            ["eighth" "ásimha"] ["fifth" "éiya"] ["first" "áwwali"] ["fourth" "fádiga"] ["ninth" "aššádiga"] ["second" "mália"] ["seventh" "asarama"] ["sixth" "aságwira"] ["tenth" "támna"] ["third" "mehéa"]]
     }
     {:label "beja_Ro-NNumerals"
     :note "Roper1928 #69"
     :common {:nounMorphClass :Numeral,
             :pos :Noun}
     :terms [[:token-note :gender :token] ;; schema
-(["1" :Masc "gal"] ["10" :Common "támin"] ["100" :Common "še"] ["1000" :Common "támin še"] ["11" :Masc "tamnágwir"] ["11" :Fem "tamnágwit"] ["110" :Common "šéwa támin"] ["12" :Common "támnamále"] ["13" :Common "támnamehéi"] ["14" :Common "támnafádig"] ["15" :Common "támenei"] ["16" :Masc "támenaságwir"] ["17" :Common "támenasaráma"] ["18" :Common "támenasimhéi"] ["19" :Common "támnaššádig"] ["2" :Common "mále"] ["20" :Masc "tágug"] ["200" :Common "mále še"] ["2000" :Common "tágug še"] ["21" :Masc "taggwágwir"] ["22" :Common "tággwamále"] ["23" :Common "tággwamehéi"] ["24" :Common "tággwafádig"] ["25" :Common "tággwéi"] ["26" :Masc "tággwaságwir"] ["27" :Common "tággwasaráma"] ["28" :Common "tággwasimhéi"] ["29" :Common "tággwaššádig"] ["3" :Common "mehei"] ["30" :Common "mehéitamun"] ["300" :Common "mehéi še"] ["31" :Masc "mehéitamunwa gal"] ["32" :Masc "mehéitamunwa mále"] ["4" :Common "fádig"] ["40" :Common "fádigtamun"] ["5" :Common "ei"] ["50" :Common "éitamun"] ["6" :Masc "aságwir"] ["6" :Fem "aságwit"] ["60" :Common "aságwirtamun"] ["7" :Common "asaráma"] ["70" :Common "asarámatamun"] ["8" :Common "asimhéi"] ["80" :Common "asimhéitamun"] ["9" :Common "aššádig"] ["90" :Common "aššádigtamun"] ["Common" :Fem "taggwágwit"] ["Common" :Fem "tágugt"] ["Common" :Fem "támenaságwit"] ["Common" :Fem "taggwasagwit"] ["p1" :Fem "gat"]]
+            ["1" :Masc "gal"] ["10" :Common "támin"] ["100" :Common "še"] ["1000" :Common "támin še"] ["11" :Masc "tamnágwir"] ["11" :Fem "tamnágwit"] ["110" :Common "šéwa támin"] ["12" :Common "támnamále"] ["13" :Common "támnamehéi"] ["14" :Common "támnafádig"] ["15" :Common "támenei"] ["16" :Masc "támenaságwir"] ["17" :Common "támenasaráma"] ["18" :Common "támenasimhéi"] ["19" :Common "támnaššádig"] ["2" :Common "mále"] ["20" :Masc "tágug"] ["200" :Common "mále še"] ["2000" :Common "tágug še"] ["21" :Masc "taggwágwir"] ["22" :Common "tággwamále"] ["23" :Common "tággwamehéi"] ["24" :Common "tággwafádig"] ["25" :Common "tággwéi"] ["26" :Masc "tággwaságwir"] ["27" :Common "tággwasaráma"] ["28" :Common "tággwasimhéi"] ["29" :Common "tággwaššádig"] ["3" :Common "mehei"] ["30" :Common "mehéitamun"] ["300" :Common "mehéi še"] ["31" :Masc "mehéitamunwa gal"] ["32" :Masc "mehéitamunwa mále"] ["4" :Common "fádig"] ["40" :Common "fádigtamun"] ["5" :Common "ei"] ["50" :Common "éitamun"] ["6" :Masc "aságwir"] ["6" :Fem "aságwit"] ["60" :Common "aságwirtamun"] ["7" :Common "asaráma"] ["70" :Common "asarámatamun"] ["8" :Common "asimhéi"] ["80" :Common "asimhéitamun"] ["9" :Common "aššádig"] ["90" :Common "aššádigtamun"] ["Common" :Fem "taggwágwit"] ["Common" :Fem "tágugt"] ["Common" :Fem "támenaságwit"] ["Common" :Fem "taggwasagwit"] ["p1" :Fem "gat"]]
     }
     {:label "beja_Ro-PArtDef"
     :note "Roper1928 #26"
