@@ -6,27 +6,27 @@
 :datasourceNotes "Roper uses the term 'conditional' for what is here termed ':Aorist'"
 :geodemoURL "http://www.ethnologue.com/language/bej"
 :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
-:schemata{:gender [:Common :Fem :Masc],
-          :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple],
-          :numN1 [:N1_Common :N1_Plural :N1_Singular],
-          :rootClass [:CC :CCC],
-          :pdgmType [:Numeral :GenAdjPart :SUFFCONDPERF :Finite :DervStemForm :PROIND :NomForm-ktm :PROSUFF :NumOrd :Affix :GenBeforePossSuff :NomFormSuff :SubjMarkerIntens :NomFormPref :POSSSUFF :ImptvFormation :SubjMarker :NA]
-          :polarity [:Affirmative :Negative],
-          :case [:Object :Subject :Object :Possessive],
-          :conjClass [:Prefix :Suffix],
-          :aspect [:Perfect :Present],
-          :pos [:Noun :Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
-          :numHead [:H_Common :H_Plural :H_Singular],
-          :morphClass [:GenAdjPart :GenBeforePossSuff :NumOrd :Numeral :DervStemForm :ImptvFormation :NomForm-ktm :NomFormPref :NomFormSuff :SubjMarker :SubjMarkerIntens :SUFFCONDPERF],
-          :genHead [:H_Fem :H_Masc],
-          :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PossInd :PossSuff],
-          :tam [:Aorist :ConditionalPerfect :ConditionalPredicative :Future :Gerund :Imperative :Optative :Past :PastContinuous :PerfectPast :Predicative :Present :PresentContinuous],
-          :genN2 [:N2_Fem :N2_Masc],
-          :clauseType [:Main :Subordinate],
-          :number [:Plural :Singular],
-          :genN1 [:N1_Fem :N1_Masc]}
+:schemata {:case [:Object  :Possessive :Subject],
+           :clauseType [:Main :Subordinate],
+           :conjClass [:Prefix :Suffix],
+           :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
+           :genHead [:H_Fem :H_Masc],
+           :genN1 [:Fem :Masc],
+           :genN2 [:Fem :Masc],
+           :gender [:Common :Fem :Masc :_NA],
+           :pdgmType [:Finite :Nom :PRO :DervStemForm :GenAdjPart :GenBeforePossSuff :ImperativeAffix :NomForm-ktm :NomFormPref :NomFormSuff :NumOrd :Numeral :SUFFCONDPERF :SubjMarker :SubjMarkerIntens :AffixNegImprtv :ImptvAffix],
+           :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple :_NA],
+           :numHead [:H_Common :H_Plural :H_Singular],
+           :numN1 [:Plural :Singular :_NA],
+           :number [:Plural :Singular :_NA],
+           :person [:Person1 :Person2 :Person3 :Plural :Singular],
+           :polarity [:Affirmative :Negative :_NA],
+           :pos [:Noun :Pronoun :Verb],
+           :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PROSUFF :PossInd :PossSuff],
+           :rootClass [:CC :CCC],
+           :tam [:Aorist :ConditionalPerfect :ConditionalPredicative :Future :Gerund :Imperative :Optative :Past :PastContinuous :PerfectPast :Predicative :Present :PresentContinuous :PastPerfect :PresentPerfect :_NA]
+           }
+
 :pclass {:pngClass [:person :number :gender :genHead :genN1 :genN2 :numHead :numN1],
           :synsemClass [:aspect :clauseType :case :derivedStem :nonFiniteForm :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass],
@@ -121,10 +121,9 @@
     }
     {:label "beja_Ro-VPrefCCAffMainImprtv-aff"
     :note "Roper1928 #167-191"
-    :pdgmType :Finite
+    :pdgmType :ImptvAffix
     :common {:clauseType :Main,
              :conjClass :Prefix,
-             :mmorphClass :Affix,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
@@ -371,9 +370,8 @@
     }
     {:label "beja_Ro-VPrefDervStemForm"
     :note "Roper1928 #211-226"
-    :pdgmType :DervStemForm
+    :pdgmType :DervStemForm,
     :common {:conjClass :Prefix,
-             :morphClass :DervStemForm,
              :pos :Verb}
     :terms [[:derivedStem :lexeme :nonFiniteForm :polarity :tam :token],
             [:B_Freq :kitim :_NA :_NA :_NA "kātatim"],
@@ -424,7 +422,7 @@
     }
     {:label "beja_Ro-VPrefGerund-i"
     :note "Roper1928 #256"
-    :pdgmType :NonFinite
+    :pdgmType :Gerund
     :common {:conjClass :Prefix,
              :gender :Common,
              :lexeme :i,
@@ -533,21 +531,6 @@
             [:Plural :Person1 :Common "ībís kínde"],
             [:Plural :Person2 :Common "ībís kíddīna"],
             [:Plural :Person3 :Common "ībís kí̄dīna"]]
-    }
-    {:label "beja_Ro-VPrefMainNegCCImprtv-aff"
-    :note "Roper1928 #167-191"
-    :pdgmType :AffixNegImprtv
-    :common {:clauseType :Main,
-             :conjClass :Prefix,
-             :morphClass :AffixNegImprtv,
-             :person :Person2,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:person :gender :token],
-            [:Plural :Common "bā…na"],
-            [:Singular :Masc "bā…a"],
-            [:Singular :Fem "bī…i"]]
     }
     {:label "beja_Ro-VPrefMainNegCCPast-bis"
     :note "Roper1928 #167-191"
@@ -1204,9 +1187,23 @@
     }
 ]
 :muterms [
+    {:label "beja_Ro-VPrefMainNegCCImprtv-aff"
+    :note "Roper1928 #167-191"
+    :pdgmType :AffixNegImprtv,
+    :common {:clauseType :Main,
+             :conjClass :Prefix,
+             :person :Person2,
+             :polarity :Negative,
+             :pos :Verb,
+             :tam :Imperative}
+    :terms [[:person :gender :token],
+            [:Plural :Common "bā…na"],
+            [:Singular :Masc "bā…a"],
+            [:Singular :Fem "bī…i"]]
+    }
     {:label "beja_H-P3sgProDialectDist"
-    :pdgmType :PROSUFF
-    :common {:morphClass :PROSUFF,
+    :pdgmType :PRO
+    :common {:proClass :PROSUFF,
              :pos :Pronoun,
              :person :Person3}
     :terms [[:case :number :token],
@@ -1218,9 +1215,8 @@
     {:label "beja_Ro-NGenAdjPart"
     :note "Roper1928 #62. Possessive construction where N1 is modified by an adjective.
             Pattern is:[N1 Adj]+genAdjPart N2 the Adj N1s N2"
-    :pdgmType :GenAdjPart
-    :common {:morphClass :GenAdjPart,
-             :pos :Noun}
+    :pdgmType :GenAdjPart,
+    :common {:pos :Noun}
     :terms [[:genN1 :genN2 :numN1 :token],
             [:Fem :Fem :Plural "-natet"],
             [:Fem :Fem :Singular "-natit"],
@@ -1230,9 +1226,8 @@
     }
     {:label "beja_Ro-NGenBeforePossSuff"
     :note "Roper1928 #106"
-    :pdgmType :GenBeforePossSuff
-    :common {:morphClass :GenBeforePossSuff,
-             :pos :Noun}
+    :pdgmType :GenBeforePossSuff,
+    :common {:pos :Noun}
     :terms [[:genHead :number :gender :token],
             [:H_Fem :Singular :Masc "-it-"],
             [:H_Fem :Singular :Fem "-tit-"],
@@ -1245,9 +1240,8 @@
     }
     {:label "beja_Ro-NNumOrd"
     :note "Roper1928 #77"
-    :pdgmType :NumOrd
-    :common {:morphClass :NumOrd,
-             :pos :Noun}
+    :pdgmType :NumOrd,
+    :common {:pos :Noun}
     :terms [[:token-note :token],
             ["eighth" "ásimha"],
             ["fifth" "éiya"],
@@ -1262,9 +1256,8 @@
     }
     {:label "beja_Ro-NNumerals"
     :note "Roper1928 #69"
-    :pdgmType :Numeral
-    :common {:morphClass :Numeral,
-             :pos :Noun}
+    :pdgmType :Numeral,
+    :common {:pos :Noun}
     :terms [[:token-note :gender :token],
             ["1" :Masc "gal"],
             ["10" :Common "támin"],
@@ -1319,7 +1312,7 @@
             ["p1" :Fem "gat"]]
     }
     {:label "beja_Ro-PArtDef"
-     :pdgmType :NA
+     :pdgmType :PRO
     :note "Roper1928 #26"
     :common {:pos :Pronoun,
              :person :Person3,
@@ -1335,7 +1328,7 @@
             [:Subject :Plural :Fem "ta"]]
     }
     {:label "beja_Ro-PGen_PossPred"
-     :pdgmType :NA
+     :pdgmType :PRO
     :note "Roper1928 #107. for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-"
     :common {:pos :Pronoun,
              :proClass :Gen_PossPred}
@@ -1391,9 +1384,8 @@
     }
     {:label "beja_Ro-PInd"
     :note "Roper1928 #80"
-    :pdgmType :PROIND
-    :common {:morphClass :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Object :Singular :Person1 :_NA "áneb"],
@@ -1418,7 +1410,7 @@
             [:Subject :Plural :Person3 :Fem "batá"]]
     }
     {:label "beja_Ro-PInterrog"
-     :pdgmType :NA
+     :pdgmType :PRO
     :note "Roper1928 #110"
     :common {:pos :Pronoun,
              :person :Person3,
@@ -1442,7 +1434,7 @@
             [:Subject :H_Common :Plural :Fem "autka"]]
     }
     {:label "beja_Ro-PPossInd"
-     :pdgmType :NA
+     :pdgmType :PRO
     :note "Roper1928 #89; w. head masc nom -- see ##90-91 for head accusative or fem"
     :common {:pos :Pronoun,
              :proClass :PossInd}
@@ -1470,9 +1462,8 @@
     }
     {:label "beja_Ro-PPossSuff"
     :note "Roper1928 #102"
-    :pdgmType :POSSSUFF
-    :common {:morphClass :POSSSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:genHead :numHead :number :person :token],
             [:H_Fem :H_Plural :Singular :Person1 "-ta"],
@@ -1507,7 +1498,7 @@
              :lexeme :kitim,
              :pos :Verb,
              :rootClass :CCC,
-             :morphClass :NomForm-ktm}
+             }
     :terms [[:nonFiniteForm :polarity :token],
             [:Gerund :_NA "kitmá̄wa"],
             [:NominalAction :_NA "-ū- kitú̄m"],
@@ -1520,7 +1511,7 @@
     :pdgmType :NomFormPref
     :common {:conjClass :Prefix,
              :pos :Verb,
-             :morphClass :NomFormPref}
+             }
     :terms [[:nonFiniteForm :polarity :token],
             [:Gerund :_NA "-a"],
             [:NominalAction :_NA "-ā-"],
@@ -1535,7 +1526,7 @@
     :common {:conjClass :Prefix,
              :derivedStem :Intensive,
              :pos :Verb,
-             :morphClass :SubjMarkerIntens}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "e…i…i"],
             [:Singular :Person2 :Masc "te…i…ia"],
@@ -1551,7 +1542,7 @@
     :pdgmType :SubjMarker
     :common {:conjClass :Prefix,
              :pos :Verb,
-             :morphClass :SubjMarker}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "a…"],
             [:Singular :Person2 :Masc "ti…a"],
@@ -1564,9 +1555,8 @@
     }
     {:label "beja_Ro-VSuffCondPerf"
     :note "Roper1928 #127-158"
-    :pdgmType :SUFFCONDPERF
+    :pdgmType :SUFFCONDPERF,
     :common {:conjClass :Suffix,
-             :morphClass :SUFFCONDPERF,
              :pos :Verb,
              :tam :ConditionalPerfect}
     :terms [[:number :person :gender :token],
@@ -1581,11 +1571,11 @@
     }
     {:label "beja_Ro-VSuffImprtvFormation"
     :note "Roper1928 #127"
-    :pdgmType :ImptvFormation
+    :pdgmType :ImptvAffix
     :common {:conjClass :Suffix,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :ImptvFormation}
+             }
     :terms [[:polarity :gender :token],
             [:Affirmative :Masc "Common"],
             [:Affirmative :Fem "-i"],
@@ -1599,16 +1589,16 @@
     :pdgmType :NomFormSuff
     :common {:conjClass :Suffix,
              :pos :Verb,
-             :morphClass :NomFormSuff}
-    :terms [[:aspect :nonFiniteForm :polarity :tam :number :gender :token],
-            [:Perfect :Participle :_NA :Past :_NA :_NA "-etit"],
-            [:Perfect :Participle :_NA :Present :_NA :_NA "-eti"],
-            [:Present :Participle :Affirmative :_NA :_NA :_NA "-e"],
-            [:Present :Participle :Negative :_NA :_NA :_NA "-ba…e"],
-            [:_NA :Gerund :_NA :_NA :_NA :_NA "-a"],
-            [:_NA :NominalAction :_NA :_NA :Singular :Masc "-ti"],
-            [:_NA :NominalAgent :_NA :_NA :Singular :Masc "-ana"],
-            [:_NA :NominalAgent :_NA :_NA :Singular :Fem "-ana"]]
+             }
+    :terms [[:nonFiniteForm :polarity :tam :number :gender :token],
+            [:Participle :_NA :PastPerfect :_NA :_NA "-etit"],
+            [:Participle :_NA :PresentPerfect :_NA :_NA "-eti"],
+            [:Participle :Affirmative :Present :_NA :_NA "-e"],
+            [:Participle :Negative :Present :_NA :_NA "-ba…e"],
+            [:Gerund :_NA :_NA :_NA :_NA "-a"],
+            [:NominalAction :_NA :_NA :Singular :Masc "-ti"],
+            [:NominalAgent :_NA :_NA :Singular :Masc "-ana"],
+            [:NominalAgent :_NA :_NA :Singular :Fem "-ana"]]
     }
 ]
 }
