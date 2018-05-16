@@ -49,7 +49,7 @@
  :termclusters [
                 {:label "beja_Ro-VPrefAffCCOpt-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
                           :polarity :Affirmative,
@@ -68,7 +68,7 @@
                  }
                 {:label "beja_Ro-VPrefAffImprtv-i"
                  :note "Roper1928 #256"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
                           :person :Person2,
@@ -82,7 +82,7 @@
                  }
                 {:label "beja_Ro-VPrefCCAffMainFuture-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -117,7 +117,7 @@
                 {:label "beja_Ro-VPrefCCAffMainPres-dif"
                  :note "Roper1928 #179-182. [Roper also gives pres neg in predicative of dif – not yet
             included]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :dif,
@@ -137,7 +137,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCAffOptNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Affirmative,
@@ -156,7 +156,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCAffPastNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Affirmative,
@@ -175,7 +175,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCAffPresNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Affirmative,
@@ -194,7 +194,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCCondNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :pos :Verb,
@@ -212,7 +212,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCImprtvNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :number :Singular,
@@ -228,7 +228,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCNegOptNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Negative,
@@ -247,7 +247,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCNegPastNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Negative,
@@ -270,7 +270,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCNegPresNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :polarity :Negative,
@@ -289,7 +289,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCPredicativeNomForm-kitim"
                  :note "Roper1928 #192-197"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
                           :pos :Verb,
@@ -311,7 +311,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCond-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
                           :pos :Verb,
@@ -329,7 +329,7 @@
                  }
                 {:label "beja_Ro-VPrefCCCondPerf-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
                           :pos :Verb,
@@ -414,7 +414,7 @@
                  }
                 {:label "beja_Ro-VPrefMainAffCCImprtv-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -430,7 +430,7 @@
                  }
                 {:label "beja_Ro-VPrefMainAffCCPast-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -451,7 +451,7 @@
                 {:label "beja_Ro-VPrefMainAffCCPast-dif"
                  :note "Roper1928 #179-182. [Roper also gives pres neg in predicative of dif – not yet
             included]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :dif,
@@ -471,7 +471,7 @@
                  }
                 {:label "beja_Ro-VPrefMainAffCCPredicative-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -495,7 +495,7 @@
                  }
                 {:label "beja_Ro-VPrefMainNegCCFuture-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -515,7 +515,7 @@
                  }
                 {:label "beja_Ro-VPrefMainNegCCPast-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -539,7 +539,7 @@
                  }
                 {:label "beja_Ro-VPrefMainNegCCPresent-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -559,7 +559,7 @@
                  }
                 {:label "beja_Ro-VPrefNegCCOpt-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
                           :polarity :Negative,
@@ -578,7 +578,7 @@
                  }
                 {:label "beja_Ro-VPrefNegImprtv-i"
                  :note "Roper1928 #256"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :i,
@@ -610,7 +610,7 @@
                  }
                 {:label "beja_Ro-VPrefPast-i"
                  :note "Roper1928 #256"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -628,7 +628,7 @@
                  }
                 {:label "beja_Ro-VPrefPres-i"
                  :note "Roper1928 #256"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -646,7 +646,7 @@
                  }
                 {:label "beja_Ro-VPrefSubAffCCPast-bis"
                  :note "Roper1928 #184-185"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -675,7 +675,7 @@
                  }
                 {:label "beja_Ro-VPrefSubAffCCPresent-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -694,7 +694,7 @@
                  }
                 {:label "beja_Ro-VPrefSubNegCCPresent-bis"
                  :note "Roper1928 #167-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -713,7 +713,7 @@
                  }
                 {:label "beja_Ro-VSuffAffMainFuture-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -732,7 +732,7 @@
                  }
                 {:label "beja_Ro-VSuffAffMainPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -751,7 +751,7 @@
                  }
                 {:label "beja_Ro-VSuffAffMainPredicative-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -774,7 +774,7 @@
                  }
                 {:label "beja_Ro-VSuffAffMainPres-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -793,7 +793,7 @@
                  }
                 {:label "beja_Ro-VSuffAffOpt-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :polarity :Affirmative,
@@ -812,7 +812,7 @@
                 {:label "beja_Ro-VSuffAffPastCont-tam"
                  :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full
             conjClassugations given only in ##257-258]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :polarity :Affirmative,
@@ -831,7 +831,7 @@
                 {:label "beja_Ro-VSuffAffPresCont-tam"
                  :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full
             conjClassugations given only in ##257-258]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :polarity :Affirmative,
@@ -849,7 +849,7 @@
                  }
                 {:label "beja_Ro-VSuffAffSubPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -868,7 +868,7 @@
                  }
                 {:label "beja_Ro-VSuffAffSubPerfPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Fem,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -883,7 +883,7 @@
                  }
                 {:label "beja_Ro-VSuffAffSubPerfPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -899,7 +899,7 @@
                  }
                 {:label "beja_Ro-VSuffAffSubPres-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -918,7 +918,7 @@
                  }
                 {:label "beja_Ro-VSuffCond-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :pos :Verb,
@@ -935,7 +935,7 @@
                  }
                 {:label "beja_Ro-VSuffCondPred-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :pos :Verb,
@@ -956,7 +956,7 @@
                  }
                 {:label "beja_Ro-VSuffNegMainFuture-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -975,7 +975,7 @@
                  }
                 {:label "beja_Ro-VSuffNegMainPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -998,7 +998,7 @@
                  }
                 {:label "beja_Ro-VSuffNegMainPres-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1017,7 +1017,7 @@
                  }
                 {:label "beja_Ro-VSuffNegOpt-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :polarity :Negative,
@@ -1035,7 +1035,7 @@
                  }
                 {:label "beja_Ro-VSuffNegPresCont-tam"
                  :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
                           :polarity :Negative,
@@ -1053,7 +1053,7 @@
                  }
                 {:label "beja_Ro-VSuffNegSubFuture-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1072,7 +1072,7 @@
                  }
                 {:label "beja_Ro-VSuffNegSubPast-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1095,7 +1095,7 @@
                  }
                 {:label "beja_Ro-VSuffNegSubPres-tam"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1114,7 +1114,7 @@
                  }
                 {:label "beja_Ro-VSuffSubAffFuture"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1133,7 +1133,7 @@
                  }
                 {:label "beja_Ro-VSuffSubAffPerfPast"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Fem,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1148,7 +1148,7 @@
                  }
                 {:label "beja_Ro-VSuffSubAffPerfPast"
                  :note "Roper1928 #127-158"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :lexeme :tam,
