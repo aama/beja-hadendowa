@@ -6,27 +6,29 @@
  :datasourceNotes "Roper uses the term 'conditional' for what is here termed ':Aorist'"
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
-:schemata {:case [:Object :Possessive :Subject],
-           :clauseType [:Main :Subordinate],
-           :conjClass [:Prefix :Suffix],
-           :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
-           :genHead [:H_Fem :H_Masc],
-           :genN1 [:Fem :Masc],
-           :genN2 [:Fem :Masc],
-           :gender [:Common :Fem :Masc :_NA],
-           :nmorphClass [:GenAdjPart :GenBeforePossSuff :NumOrd :Numeral],
-           :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple :_NA],
-           :numHead [:H_Common :H_Plural :H_Singular],
-           :numN1 [:Plural :Singular :_NA],
-           :number [:Plural :Singular :_NA],
-           :person [:Person1 :Person2 :Person3 :Plural :Singular],
-           :polarity [:Affirmative :Negative :_NA],
-           :pos [:Noun :Pronoun :Verb],
-           :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PROSUFF :PossInd :PossSuff],
-           :rootClass [:CC :CCC],
-           :tam [:Aorist :ConditionalPerfect :ConditionalPredicative :Future :Gerund :Imperative :Optative :Past :PastContinuous :PastPerfect :PerfectPast :Predicative :Present :PresentContinuous :PresentPerfect :_NA],
-           :vmorphClass [:Finite :AffixNegImprtv :DervStemForm :GerundForm :ImptvAffix :NomForm-ktm :NomFormPref :NomFormSuff :NominalAgent :Participle :SUFFCONDPERF :SubjMarker :SubjMarkerIntens]
-           } :pclass {:pngClass [:person :number :gender :genHead :genN1 :genN2 :numHead :numN1],
+:schemata {:lexeme [:bar  :bir :bis :dif :gid :i :kitim :m- :min :mo :nis :sodira :t- :tam :to],
+ :case [:Object :Possessive :Subject],
+ :clauseType [:Main :Subordinate],
+ :conjClass [:Prefix :Suffix],
+ :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
+ :genHead [:H_Fem :H_Masc],
+ :genN1 [:Fem :Masc],
+ :genN2 [:Fem :Masc],
+ :gender [:Common :Fem :Masc :_NA],
+ :nmorphClass [:GenAdjPart :GenBeforePossSuff :NumOrd :Numeral],
+ :nonFiniteForm [:Gerund :NominalAction :NominalAgent :Participle :PerfectParticiple :PresentParticiple :_NA],
+ :numHead [:H_Common :H_Plural :H_Singular],
+ :numN1 [:Plural :Singular :_NA],
+ :number [:Plural :Singular :_NA],
+ :person [:Person1 :Person2 :Person3 :Plural :Singular],
+ :pmorphClass [:ProMorph],
+ :polarity [:Affirmative :Negative :_NA],
+ :pos [:Noun :Pronoun :Verb],
+ :proClass [:ArtDef :Gen_PossPred :Independent :Interrogative :PROSUFF :PossInd :PossSuff],
+ :rootClass [:CC :CCC],
+ :tam [:Aorist :ConditionalPerfect :ConditionalPredicative :Future :Gerund :Imperative :Optative :Past :PastContinuous :PastPerfect :PerfectPast :Predicative :Present :PresentContinuous :PresentPerfect :_NA],
+ :vmorphClass [:AffixNegImprtv :DervStemForm :Finite :GerundForm :ImptvAffix :NomForm-ktm :NomFormPref :NomFormSuff :NominalAgent :Participle :SUFFCONDPERF :SubjMarker :SubjMarkerIntens]
+ } :pclass {:pngClass [:person :number :gender :genHead :genN1 :genN2 :numHead :numN1],
           :synsemClass [:aspect :clauseType :case :derivedStem :nonFiniteForm :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass],
           :otherClass []}
@@ -1180,7 +1182,7 @@
                  }
                 {:label "beja_H-P3sgProDialectDist"
                  :common {:proClass :PROSUFF,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
                           :person :Person3}
                  :terms [[:case :number :token],
                          [:Object :Singular "..."],
@@ -1289,7 +1291,7 @@
                  }
                 {:label "beja_Ro-PArtDef"
                  :note "Roper1928 #26"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :person :Person3,
                           :proClass :ArtDef}
                  :terms [[:case :number :gender :token],
@@ -1304,7 +1306,7 @@
                  }
                 {:label "beja_Ro-PGen_PossPred"
                  :note "Roper1928 #107. for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Gen_PossPred}
                  :terms [[:genHead :numHead :number :person :gender :token],
                          [:H_Fem :H_Plural :Singular :Person1 :Masc "-iteta"],
@@ -1358,7 +1360,7 @@
                  }
                 {:label "beja_Ro-PInd"
                  :note "Roper1928 #80"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
                          [:Object :Singular :Person1 :_NA "áneb"],
@@ -1384,7 +1386,7 @@
                  }
                 {:label "beja_Ro-PInterrog"
                  :note "Roper1928 #110"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :person :Person3,
                           :proClass :Interrogative}
                  :terms [[:case :numHead :number :gender :token],
@@ -1407,7 +1409,7 @@
                  }
                 {:label "beja_Ro-PPossInd"
                  :note "Roper1928 #89; w. head masc nom -- see ##90-91 for head accusative or fem"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossInd}
                  :terms [[:numHead :number :person :gender :token],
                          [:H_Plural :Singular :Person1 :Common "áni"],
@@ -1433,7 +1435,7 @@
                  }
                 {:label "beja_Ro-PPossSuff"
                  :note "Roper1928 #102"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
                  :terms [[:genHead :numHead :number :person :token],
                          [:H_Fem :H_Plural :Singular :Person1 "-ta"],
