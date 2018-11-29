@@ -6,8 +6,7 @@
  :datasourceNotes "Roper uses the term 'conditional' for what is here termed ':Aorist'"
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
-:schemata {:lexeme [:bar  :bir :bis :dif :gid :i :kitim :m- :min :mo :nis :sodira :t- :tam :to],
- :case [:Object :Possessive :Subject],
+:schemata { :case [:Object :Possessive :Subject],
  :clauseType [:Main :Subordinate],
  :conjClass [:Prefix :Suffix],
  :derivedStem [:B_Freq :B_Intens :B_Redup :Base :Intensive :M :Reciprocal :S],
@@ -32,22 +31,24 @@
           :synsemClass [:aspect :clauseType :case :derivedStem :nonFiniteForm :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass],
           :otherClass []}
- :lexemes{:nis {:gloss "saddle", :lemma "nis"},
-          :gid {:gloss "throw", :lemma "gid"},
-          :to {:gloss "[x]", :lemma "[y]"},
-          :kitim {:gloss "arrive", :lemma "kitim"},
-          :bar {:gloss "wake", :lemma "bar"},
-          :bir {:gloss "snatch", :lemma "bir"},
-          :bis {:gloss "bury", :lemma "bis"},
-          :dir {:gloss "kill", :lemma "dir"},
-          :m- {:gloss "[x]", :lemma "[y]"},
-          :dif {:gloss "go", :lemma "dif"},
-          :i {:gloss "go", :lemma "i"},
-          :sodira {:gloss "[x]", :lemma "[y]"},
-          :t- {:gloss "[x]", :lemma "[y]"},
-          :min {:gloss "shave", :lemma "min"},
-          :tam {:gloss "eat", :lemma "tam"},
-          :mo {:gloss "[x]", :lemma "[y]"}}
+ :lexemes {
+:bar   {:pos :Verb, :lemma "bar", :gloss "wake", },
+:bir   {:pos :Verb, :lemma "bir", :gloss "snatch", },
+:bis   {:pos :Verb, :lemma "bis", :gloss "bury", },
+:dif   {:pos :Verb, :lemma "dif", :gloss "go", },
+:dir   {:pos :Verb, :lemma "dir", :gloss "kill", },
+:gid   {:pos :Verb, :lemma "gid", :gloss "throw", },
+:i   {:pos :Verb, :lemma "i", :gloss "go", },
+:kitim   {:pos :Verb, :lemma "kitim", :gloss "arrive", },
+:m-   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:min   {:pos :Verb, :lemma "min", :gloss "shave", },
+:mo   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:nis   {:pos :Verb, :lemma "nis", :gloss "saddle", },
+:sodira   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:t-   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:tam   {:pos :Verb, :lemma "tam", :gloss "eat", },
+:to   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+}
  :termclusters [
                 {:label "beja_Ro-VPrefAffCCOpt-bis"
                  :note "Roper1928 #167-191"
@@ -461,15 +462,15 @@
                           :pos :Verb,
                           :rootClass :CC,
                           :tam :Past}
-                 :terms [[:lexeme :number :person :gender :token],
-                         [:dif :Singular :Person1 :Common "adíf"],
-                         [:dif :Singular :Person2 :Masc "tídífa"],
-                         [:dif :Singular :Person2 :Fem "tídifi"],
-                         [:dif :Singular :Person3 :Masc "idíf"],
-                         [:dif :Singular :Person3 :Fem "tidíf"],
-                         [:dif :Plural :Person1 :Common "nidíf"],
-                         [:dif :Plural :Person2 :Common "tídifna"],
-                         [:dif :Plural :Person3 :Common "ídifna"]]
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "adíf"],
+                         [:Singular :Person2 :Masc "tídífa"],
+                         [:Singular :Person2 :Fem "tídifi"],
+                         [:Singular :Person3 :Masc "idíf"],
+                         [:Singular :Person3 :Fem "tidíf"],
+                         [:Plural :Person1 :Common "nidíf"],
+                         [:Plural :Person2 :Common "tídifna"],
+                         [:Plural :Person3 :Common "ídifna"]]
                  }
                 {:label "beja_Ro-VPrefMainAffCCPredicative-bis"
                  :note "Roper1928 #167-191"
