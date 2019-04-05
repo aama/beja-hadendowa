@@ -1,8 +1,8 @@
 {
- :lang :beja-hadendowa
+ :lang :beja-rop
  :subfamily "Beja"
- :sgpref "bha"
- :datasource "Roper1928"
+ :sgpref "bro"
+ :datasource "Roper1928 [Section ref abbreviated in :note as RP#"
  :datasourceNotes "Roper uses the term 'conditional' for what is here termed ':Aorist'"
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety of Hadendowa (Hadendiwa) represented here is that described by E.M. Roper (Roper1928) and spoken in Suakin, Sudan, where Roper was a colonial administrator."
@@ -51,7 +51,7 @@
 }
  :termclusters [
                 {:label "beja_Ro-VPrefAffCCOpt-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -70,7 +70,7 @@
                          [:Plural :Person3 :Common "bá̄í̄bisna"]]
                  }
                 {:label "beja_Ro-VPrefAffImprtv-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
@@ -84,7 +84,7 @@
                          [:Plural :Common "m’ān"]]
                  }
                 {:label "beja_Ro-VPrefCCAffMainFuture-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -104,7 +104,7 @@
                          [:Plural :Person3 :Common "ībís ɛédna"]]
                  }
                 {:label "beja_Ro-VPrefCCAffMainImprtv-aff"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :ImptvAffix
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -118,7 +118,7 @@
                          [:Plural :Common "…na"]]
                  }
                 {:label "beja_Ro-VPrefCCAffMainPres-dif"
-                 :note "Roper1928 #179-182. [Roper also gives pres neg in predicative of dif – not yet
+                 :note "RP#179-182. [Roper also gives pres neg in predicative of dif – not yet
             included]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
@@ -139,7 +139,7 @@
                          [:Plural :Person3 :Common "ɛdifna"]]
                  }
                 {:label "beja_Ro-VPrefCCCAffOptNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -158,7 +158,7 @@
                          [:Plural :Person3 :Common "bāí̄ktimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCAffPastNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -177,7 +177,7 @@
                          [:Plural :Person3 :Common "íktimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCAffPresNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -196,7 +196,7 @@
                          [:Plural :Person3 :Common "íktimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCCondNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -214,7 +214,7 @@
                          [:Plural :Person3 :Common "í̄ktimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCImprtvNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -230,7 +230,7 @@
                          [:Common "kítimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCNegOptNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -249,7 +249,7 @@
                          [:Plural :Person3 :Common "bīkátīmna"]]
                  }
                 {:label "beja_Ro-VPrefCCCNegPastNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -272,7 +272,7 @@
                          [:Plural :Person3 :Fem "kitmāt kí̄ken"]]
                  }
                 {:label "beja_Ro-VPrefCCCNegPresNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -291,7 +291,7 @@
                          [:Plural :Person3 :Common "kí̄ktimna"]]
                  }
                 {:label "beja_Ro-VPrefCCCPredicativeNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -313,7 +313,7 @@
                          [:Plural :Person3 :Fem "ɛkátimta"]]
                  }
                 {:label "beja_Ro-VPrefCCCond-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -331,7 +331,7 @@
                          [:Plural :Person3 :Common "í̄bisna"]]
                  }
                 {:label "beja_Ro-VPrefCCCondPerf-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -353,7 +353,7 @@
                          [:Plural :Person3 :Fem "bisāt (y)īktīna(a)"]]
                  }
                 {:label "beja_Ro-VPrefDervStemForm"
-                 :note "Roper1928 #211-226"
+                 :note "RP#211-226"
                  :common {:vmorphClass :DervStemForm,
                           :conjClass :Prefix,
                           :pos :Verb}
@@ -405,7 +405,7 @@
                          [:S :sodira :_NA :_NA :Gerund "sodira"]]
                  }
                 {:label "beja_Ro-VPrefGerund-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :GerundForm
                           :conjClass :Prefix,
                           :gender :Common,
@@ -416,7 +416,7 @@
                          ["‘ia"]]
                  }
                 {:label "beja_Ro-VPrefMainAffCCImprtv-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -432,7 +432,7 @@
                          [:Plural :Common "bis-na"]]
                  }
                 {:label "beja_Ro-VPrefMainAffCCPast-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -452,7 +452,7 @@
                          [:Plural :Person3 :Common "íbisn(a)"]]
                  }
                 {:label "beja_Ro-VPrefMainAffCCPast-dif"
-                 :note "Roper1928 #179-182. [Roper also gives pres neg in predicative of dif – not yet
+                 :note "RP#179-182 :: [Roper also gives pres neg in predicative of dif – not yet
             included]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
@@ -473,7 +473,7 @@
                          [:Plural :Person3 :Common "ídifna"]]
                  }
                 {:label "beja_Ro-VPrefMainAffCCPredicative-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -497,7 +497,7 @@
                          [:Plural :Person3 :Fem "ɛbista"]]
                  }
                 {:label "beja_Ro-VPrefMainNegCCFuture-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -517,7 +517,7 @@
                          [:Plural :Person3 :Common "ībís kí̄dīna"]]
                  }
                 {:label "beja_Ro-VPrefMainNegCCPast-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -541,7 +541,7 @@
                          [:Plural :Person3 :Fem "bisá̄t kí̄ken"]]
                  }
                 {:label "beja_Ro-VPrefMainNegCCPresent-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -561,7 +561,7 @@
                          [:Plural :Person3 :Common "kí̄bisna"]]
                  }
                 {:label "beja_Ro-VPrefNegCCOpt-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :bis,
@@ -580,7 +580,7 @@
                          [:Plural :Person3 :Common "bí̄bīsna"]]
                  }
                 {:label "beja_Ro-VPrefNegImprtv-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -592,7 +592,7 @@
                          ["bá̄’iyā"]]
                  }
                 {:label "beja_Ro-VPrefNomAgent-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :NominalAgent,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -602,7 +602,7 @@
                          ["aiana"]]
                  }
                 {:label "beja_Ro-VPrefParticiple-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :Participle
                           :conjClass :Prefix,
                           :gender :Common,
@@ -612,7 +612,7 @@
                          ["‘ié"]]
                  }
                 {:label "beja_Ro-VPrefPast-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
@@ -630,7 +630,7 @@
                          [:Plural :Person3 :Common "éan"]]
                  }
                 {:label "beja_Ro-VPrefPres-i"
-                 :note "Roper1928 #256"
+                 :note "RP#256"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :i,
@@ -648,7 +648,7 @@
                          [:Plural :Person3 :Common "een"]]
                  }
                 {:label "beja_Ro-VPrefSubAffCCPast-bis"
-                 :note "Roper1928 #184-185"
+                 :note "RP#184-185"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -677,7 +677,7 @@
                          [:Negative :Plural :Person3 :Fem "bisāt bīkaīnék"]]
                  }
                 {:label "beja_Ro-VPrefSubAffCCPresent-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -696,7 +696,7 @@
                          [:Plural :Person3 "ɛbĭsnék(na)"]]
                  }
                 {:label "beja_Ro-VPrefSubNegCCPresent-bis"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -715,7 +715,7 @@
                          [:Plural :Person3 "bībīsnék(na)"]]
                  }
                 {:label "beja_Ro-VSuffAffMainFuture-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -734,7 +734,7 @@
                          [:Plural :Person3 :Common "támi ɛédna"]]
                  }
                 {:label "beja_Ro-VSuffAffMainPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -753,7 +753,7 @@
                          [:Plural :Person3 :Common "tam-iān"]]
                  }
                 {:label "beja_Ro-VSuffAffMainPredicative-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -776,7 +776,7 @@
                          [:Plural :Person3 :Fem "támēnta"]]
                  }
                 {:label "beja_Ro-VSuffAffMainPres-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -795,7 +795,7 @@
                          [:Plural :Person3 :Common "tam-ɛn"]]
                  }
                 {:label "beja_Ro-VSuffAffOpt-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -813,7 +813,7 @@
                          [:Plural :Person3 :Common "bá̄tamīn"]]
                  }
                 {:label "beja_Ro-VSuffAffPastCont-tam"
-                 :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full
+                 :note "RP#257-278 :: [Need to make table of general compound tense patterns. Full
             conjClassugations given only in ##257-258]"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
@@ -832,7 +832,7 @@
                          [:Plural :Person3 :Common "tamiá̄n í̄fīn(a)"]]
                  }
                 {:label "beja_Ro-VSuffAffPresCont-tam"
-                 :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full
+                 :note "RP#257-278 :: [Need to make table of general compound tense patterns. Full
             conjClassugations given only in ##257-258]"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
@@ -851,7 +851,7 @@
                          [:Plural :Person3 :Common "tamiá̆n ‘ihén"]]
                  }
                 {:label "beja_Ro-VSuffAffSubPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -870,7 +870,7 @@
                          [:Plural :Person3 :Common "tamiānék"]]
                  }
                 {:label "beja_Ro-VSuffAffSubPerfPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -885,7 +885,7 @@
                          ["tamāt nekatiyék"]]
                  }
                 {:label "beja_Ro-VSuffAffSubPerfPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -901,7 +901,7 @@
                          [:Person3 :Fem "tamāt ikatīnék"]]
                  }
                 {:label "beja_Ro-VSuffAffSubPres-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -920,7 +920,7 @@
                          [:Plural :Person3 :Common "tamɛnék"]]
                  }
                 {:label "beja_Ro-VSuffCond-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -937,7 +937,7 @@
                          [:Plural :Person3 :Common "támīna"]]
                  }
                 {:label "beja_Ro-VSuffCondPred-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -958,7 +958,7 @@
                          [:Plural :Person3 :Fem "támīta"]]
                  }
                 {:label "beja_Ro-VSuffNegMainFuture-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -977,7 +977,7 @@
                          [:Plural :Person3 :Common "tami kí̄dīna"]]
                  }
                 {:label "beja_Ro-VSuffNegMainPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1000,7 +1000,7 @@
                          [:Plural :Person3 :Fem "tamat kí̄ken"]]
                  }
                 {:label "beja_Ro-VSuffNegMainPres-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1019,7 +1019,7 @@
                          [:Plural :Person3 :Common "katamiān"]]
                  }
                 {:label "beja_Ro-VSuffNegOpt-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1037,7 +1037,7 @@
                          [:Plural :Person3 :Common "bītámɛn(a)"]]
                  }
                 {:label "beja_Ro-VSuffNegPresCont-tam"
-                 :note "Roper1928 #257-278. [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]"
+                 :note "RP#257-278 :: [Need to make table of general compound tense patterns. Full conjClassugations given only in ##257-258]"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tam,
@@ -1055,7 +1055,7 @@
                          [:Plural :Person3 :Common "tamiá̄n kíhaina"]]
                  }
                 {:label "beja_Ro-VSuffNegSubFuture-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1074,7 +1074,7 @@
                          [:Plural :Person3 :Common "támi bīdīnék"]]
                  }
                 {:label "beja_Ro-VSuffNegSubPast-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1097,7 +1097,7 @@
                          [:Plural :Person3 :Fem "tamāt bīkaīnék"]]
                  }
                 {:label "beja_Ro-VSuffNegSubPres-tam"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1116,7 +1116,7 @@
                          [:Plural :Person3 :Common "bītamɛnék"]]
                  }
                 {:label "beja_Ro-VSuffSubAffFuture"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1135,7 +1135,7 @@
                          [:Plural :Person3 :Common "támi ɛednék"]]
                  }
                 {:label "beja_Ro-VSuffSubAffPerfPast"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :gender :Fem,
                           :polarity :Affirmative,
@@ -1150,7 +1150,7 @@
                          ["tamāt nekatiyék"]]
                  }
                 {:label "beja_Ro-VSuffSubAffPerfPast"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1168,7 +1168,7 @@
                          [:Plural :Person1 :Masc "tamāb nekatiyék"]]
                  }
                 {:label "beja_Ro-VPrefMainNegCCImprtv-aff"
-                 :note "Roper1928 #167-191"
+                 :note "RP#167-191"
                  :common {:vmorphClass :AffixNegImprtv,
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1192,7 +1192,7 @@
                          [:Possessive :Plural "-  / - hna"]]
                  }
                 {:label "beja_Ro-NGenAdjPart"
-                 :note "Roper1928 #62. Possessive construction where N1 is modified by an adjective.
+                 :note "RP#62 ::  Possessive construction where N1 is modified by an adjective.
             Pattern is:[N1 Adj]+genAdjPart N2 the Adj N1s N2"
                  :common {:nmorphClass :GenAdjPart,
                           :pos :Noun}
@@ -1204,7 +1204,7 @@
                          [:Masc :Masc :_NA "-nai"]]
                  }
                 {:label "beja_Ro-NGenBeforePossSuff"
-                 :note "Roper1928 #106"
+                 :note "RP#106"
                  :common {:nmorphClass :GenBeforePossSuff,
                           :pos :Noun}
                  :terms [[:genHead :number :gender :token],
@@ -1218,7 +1218,7 @@
                          [:H_Masc :Plural :Fem "-te-"]]
                  }
                 {:label "beja_Ro-NNumOrd"
-                 :note "Roper1928 #77"
+                 :note "RP#77"
                  :common {:nmorphClass :NumOrd,
                           :pos :Noun}
                  :terms [[:token-note :token],
@@ -1234,7 +1234,7 @@
                          ["third" "mehéa"]]
                  }
                 {:label "beja_Ro-NNumerals"
-                 :note "Roper1928 #69"
+                 :note "RP#69"
                  :common {:nmorphClass :Numeral,
                           :pos :Noun}
                  :terms [[:token-note :gender :token],
@@ -1291,7 +1291,7 @@
                          ["p1" :Fem "gat"]]
                  }
                 {:label "beja_Ro-PArtDef"
-                 :note "Roper1928 #26"
+                 :note "RP#26"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :person :Person3,
                           :proClass :ArtDef}
@@ -1306,7 +1306,7 @@
                          [:Subject :Plural :Fem "ta"]]
                  }
                 {:label "beja_Ro-PGen_PossPred"
-                 :note "Roper1928 #107. for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-"
+                 :note "RP#107 :: for plural nomen rectum [i.e. numPoss pl]change the genitival –i- throughout to –e-"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Gen_PossPred}
                  :terms [[:genHead :numHead :number :person :gender :token],
@@ -1360,7 +1360,7 @@
                          [:H_Masc :H_Singular :Plural :Person3 :Fem "-tihinai"]]
                  }
                 {:label "beja_Ro-PInd"
-                 :note "Roper1928 #80"
+                 :note "RP#80"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -1386,7 +1386,7 @@
                          [:Subject :Plural :Person3 :Fem "batá"]]
                  }
                 {:label "beja_Ro-PInterrog"
-                 :note "Roper1928 #110"
+                 :note "RP#110"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :person :Person3,
                           :proClass :Interrogative}
@@ -1409,7 +1409,7 @@
                          [:Subject :H_Common :Plural :Fem "autka"]]
                  }
                 {:label "beja_Ro-PPossInd"
-                 :note "Roper1928 #89; w. head masc nom -- see ##90-91 for head accusative or fem"
+                 :note "RP#89 :: w. head masc nom -- see ##90-91 for head accusative or fem"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossInd}
                  :terms [[:numHead :number :person :gender :token],
@@ -1435,7 +1435,7 @@
                          [:H_Singular :Plural :Person3 :Fem "bateú"]]
                  }
                 {:label "beja_Ro-PPossSuff"
-                 :note "Roper1928 #102"
+                 :note "RP#102"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
                  :terms [[:genHead :numHead :number :person :token],
@@ -1465,7 +1465,7 @@
                          [:H_Masc :H_Singular :Plural :Person3 "-u"]]
                  }
                 {:label "beja_Ro-VPrefCCCNomForm-kitim"
-                 :note "Roper1928 #192-197"
+                 :note "RP#192-197"
                  :common {:vmorphClass :NomForm-ktm
                           :conjClass :Prefix,
                           :lexeme :kitim,
@@ -1480,7 +1480,7 @@
                          [:Participle :Negative "bākátīm"]]
                  }
                 {:label "beja_Ro-VPrefNomForm"
-                 :note "Roper1928 #170-175"
+                 :note "RP#170-175"
                  :common {:vmorphClass :NomFormPref
                           :conjClass :Prefix,
                           :pos :Verb,
@@ -1494,7 +1494,7 @@
                          [:PresentParticiple :Negative "bā-"]]
                  }
                 {:label "beja_Ro-VPrefIntensSubjMarker"
-                 :note "Roper1928 #213"
+                 :note "RP#213"
                  :common {:vmorphClass :SubjMarkerIntens
                           :conjClass :Prefix,
                           :derivedStem :Intensive,
@@ -1511,7 +1511,7 @@
                          [:Plural :Person3 :Common "e…i…in(a)"]]
                  }
                 {:label "beja_Ro-VPrefSubjMarker"
-                 :note "Roper1928 #167"
+                 :note "RP#167"
                  :common {:vmorphClass :SubjMarker
                           :conjClass :Prefix,
                           :pos :Verb,
@@ -1527,7 +1527,7 @@
                          [:Plural :Person3 :Common "i…n(a)"]]
                  }
                 {:label "beja_Ro-VSuffCondPerf"
-                 :note "Roper1928 #127-158"
+                 :note "RP#127-158"
                  :common {:vmorphClass :SUFFCONDPERF,
                           :conjClass :Suffix,
                           :pos :Verb,
@@ -1543,7 +1543,7 @@
                          [:Plural :Person3 :Common "gerund+(y)īktīn(a)"]]
                  }
                 {:label "beja_Ro-VSuffImprtvFormation"
-                 :note "Roper1928 #127"
+                 :note "RP#127"
                  :common {:vmorphClass :ImptvAffix
                           :conjClass :Suffix,
                           :pos :Verb,
@@ -1558,7 +1558,7 @@
                          [:Negative :Common "ba…ana"]]
                  }
                 {:label "beja_Ro-VSuffNomForm"
-                 :note "Roper1928 #121-126"
+                 :note "RP#121-126"
                  :common {:vmorphClass :NomFormSuff
                           :conjClass :Suffix,
                           :pos :Verb,
